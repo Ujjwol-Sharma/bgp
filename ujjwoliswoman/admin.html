@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPG Academy — Admin</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Normal Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- KaTeX CSS & JS for Math Preview -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+    <!-- Admin Stylesheet -->
+    <link rel="stylesheet" href="./css/admin.css?v=20261119v5">
+</head>
+<body>
+
+    <!-- 1. ADMIN LOGIN -->
+    <div class="admin-login-splash" id="adminLoginSplash">
+        <div class="login-card">
+            <h2 style="margin-bottom:8px;">BPG Academy Admin</h2>
+            <p>Sign in with your admin passkey to manage users, content, section access, and plans.</p>
+            <form onsubmit="handleAdminLogin(event)">
+                <div class="login-field">
+                    <label for="admEmail">Admin Email</label>
+                    <input type="text" id="admEmail" class="adm-input" value="admin@bpgacademy.edu.np" required>
+                </div>
+                <div class="login-field">
+                    <label for="admPass">Admin Passkey</label>
+                    <input type="password" id="admPass" class="adm-input" placeholder="Enter passkey (default: bpg2026)" required>
+                </div>
+                <button type="submit" class="btn-adm-primary" style="margin-top:8px;">
+                    Open Admin Panel
+                </button>
+            </form>
+            <div style="margin-top:16px; font-size:0.8rem; color:var(--adm-text-muted);">
+                Default passkey: <code>bpg2026</code>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. SIMPLIFIED 4-TAB ADMIN SHELL -->
+    <div class="admin-shell" id="adminShell" style="display:none;">
+        <header class="admin-topbar">
+            <div class="topbar-left">
+                <span class="cms-brand-badge">BPG Academy Admin</span>
+                <span class="save-status-pill" id="adminSaveIndicator">Ready</span>
+            </div>
+            <div class="topbar-right">
+                <a href="./index.html" target="_blank" class="btn-topbar">Open Website</a>
+                <button type="button" class="btn-topbar danger" onclick="logoutAdmin()">Log Out</button>
+            </div>
+        </header>
+
+        <!-- Exactly 4 Clearly Labeled Tabs -->
+        <nav class="admin-nav-bar" aria-label="Admin Navigation">
+            <button type="button" class="adm-tab-btn active" id="tabBtn-users" onclick="switchAdminTab('users')">
+                Users
+            </button>
+            <button type="button" class="adm-tab-btn" id="tabBtn-content" onclick="switchAdminTab('content')">
+                Content
+            </button>
+            <button type="button" class="adm-tab-btn" id="tabBtn-sections" onclick="switchAdminTab('sections')">
+                Section Access
+            </button>
+            <button type="button" class="adm-tab-btn" id="tabBtn-plans" onclick="switchAdminTab('plans')">
+                Plans &amp; Access
+            </button>
+        </nav>
+
+        <main class="admin-main">
+
+            <!-- ==============================================================
+                 TAB 1: USERS
+                 ============================================================== -->
+            <section class="adm-pane active" id="pane-users">
+                <div id="duplicateGmailReviewBanner" class="adm-alert-banner" style="display:none;"></div>
+
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">Users</h2>
+                            <p class="adm-card-subtitle">Search students by name or Gmail, view or update their current plan, and review flagged duplicate Gmail accounts.</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Add Student -->
+                    <form onsubmit="handleAdminAddUser(event)" class="adm-inline-form">
+                        <input type="text" id="newUserName" class="adm-input" placeholder="Student name" required>
+                        <input type="email" id="newUserEmail" class="adm-input" placeholder="Gmail address" required>
+                        <select id="newUserGrade" class="adm-select">
+                            <option value="Class 12" selected>Class 12</option>
+                            <option value="Class 11">Class 11</option>
+                            <option value="Class 10">Class 10</option>
+                            <option value="After 12 Entrance">Entrance Prep</option>
+                        </select>
+                        <select id="newUserPlan" class="adm-select">
+                            <option value="free" selected>Free</option>
+                            <option value="gold">Gold</option>
+                            <option value="diamond">Diamond</option>
+                        </select>
+                        <button type="submit" class="btn-adm-dark">Add Student</button>
+                    </form>
+
+                    <div style="margin-bottom:16px;">
+                        <input type="text" id="userSearchInput" class="adm-input" placeholder="Search by name or Gmail..." oninput="renderUsersTab()">
+                    </div>
+
+                    <div class="adm-table-wrap">
+                        <table class="adm-table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Gmail / Email</th>
+                                    <th>Class</th>
+                                    <th>Current Plan</th>
+                                    <th>Joined</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="usersTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 TAB 2: CONTENT (QUESTIONS & PDFS)
+                 ============================================================== -->
+            <section class="adm-pane" id="pane-content">
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">Questions &amp; Study Notes</h2>
+                            <p class="adm-card-subtitle">Add or edit questions, answers, and formulas for any section.</p>
+                        </div>
+                        <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+                            <select id="contentClassSelect" class="adm-select" style="width:auto;" onchange="handleContentClassChange(this.value)">
+                                <option value="class-12">Class 12</option>
+                                <option value="class-11">Class 11</option>
+                                <option value="class-10">Class 10 (SEE)</option>
+                                <option value="after-12">Entrance Prep</option>
+                            </select>
+                            <button type="button" class="btn-adm-dark" onclick="startNewQuestion()">+ Add Question</button>
+                        </div>
+                    </div>
+
+                    <div class="adm-split-grid">
+                        <!-- Left: Questions list -->
+                        <div class="adm-sidebar-box">
+                            <div class="adm-box-label">Questions in this section</div>
+                            <div id="contentQuestionsList" class="adm-list-stack"></div>
+                        </div>
+
+                        <!-- Right: Question editor -->
+                        <div class="adm-editor-box">
+                            <form onsubmit="saveCurrentQuestion(event)">
+                                <input type="hidden" id="qEditId" value="">
+                                <div class="adm-form-row-2">
+                                    <div>
+                                        <label class="adm-label" for="qTitleInput">Question / Topic Title</label>
+                                        <input type="text" id="qTitleInput" class="adm-input" placeholder="e.g. Definite Integrals & Properties" required>
+                                    </div>
+                                    <div>
+                                        <label class="adm-label" for="qMinPlanInput">Minimum Plan</label>
+                                        <select id="qMinPlanInput" class="adm-select">
+                                            <option value="free">Free</option>
+                                            <option value="gold">Gold</option>
+                                            <option value="diamond">Diamond</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div style="margin-bottom:14px;">
+                                    <label class="adm-label" for="qOverviewInput">Question / Concept Overview</label>
+                                    <textarea id="qOverviewInput" class="adm-textarea" rows="3" placeholder="Explain the question or concept..."></textarea>
+                                </div>
+
+                                <div style="margin-bottom:14px;">
+                                    <label class="adm-label" for="qDefsInput">Key Formulas (supports KaTeX $...$ or $$...$$)</label>
+                                    <textarea id="qDefsInput" class="adm-textarea mono-font" rows="2" placeholder="$$\int_0^\pi \sin^2 x\,dx = \frac{\pi}{2}$$"></textarea>
+                                </div>
+
+                                <div style="margin-bottom:14px;">
+                                    <label class="adm-label" for="qAnswerInput">Full Answer / Step-by-Step Solution</label>
+                                    <textarea id="qAnswerInput" class="adm-textarea" rows="4" placeholder="Write the step-by-step solution..."></textarea>
+                                </div>
+
+                                <div style="margin-bottom:16px;">
+                                    <label class="adm-label" for="qTrapInput">Common Mistake / Exam Note (Optional)</label>
+                                    <input type="text" id="qTrapInput" class="adm-input" placeholder="Optional tip for students">
+                                </div>
+
+                                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+                                    <button type="button" id="btnDeleteQuestion" class="btn-topbar danger" onclick="deleteCurrentQuestion()" style="display:none;">Delete Question</button>
+                                    <button type="submit" class="btn-adm-dark">Save Question</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PDFs Upload & Manager -->
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">PDFs</h2>
+                            <p class="adm-card-subtitle">Upload PDF files or link external PDFs for the selected section.</p>
+                        </div>
+                    </div>
+
+                    <form onsubmit="handleAddPdf(event)" class="adm-pdf-form">
+                        <div>
+                            <label class="adm-label" for="pdfTitleInput">PDF Title</label>
+                            <input type="text" id="pdfTitleInput" class="adm-input" placeholder="e.g. Calculus Formula Sheet" required>
+                        </div>
+                        <div>
+                            <label class="adm-label" for="pdfUnitInput">Topic / Unit</label>
+                            <input type="text" id="pdfUnitInput" class="adm-input" placeholder="e.g. Calculus">
+                        </div>
+                        <div>
+                            <label class="adm-label" for="pdfMinPlanInput">Minimum Plan</label>
+                            <select id="pdfMinPlanInput" class="adm-select">
+                                <option value="free">Free</option>
+                                <option value="gold">Gold</option>
+                                <option value="diamond">Diamond</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="adm-label" for="pdfFileInput">Upload PDF File</label>
+                            <input type="file" id="pdfFileInput" class="adm-input" accept="application/pdf,.pdf">
+                        </div>
+                        <div>
+                            <label class="adm-label" for="pdfUrlInput">Or PDF Link (Optional)</label>
+                            <input type="url" id="pdfUrlInput" class="adm-input" placeholder="https://...">
+                        </div>
+                        <div style="display:flex; align-items:flex-end;">
+                            <button type="submit" class="btn-adm-dark" style="width:100%;">Add PDF</button>
+                        </div>
+                    </form>
+
+                    <div id="contentPdfsList" class="adm-list-stack" style="margin-top:16px;"></div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 TAB 3: SECTION ACCESS (OPEN / LOCKED TOGGLES)
+                 ============================================================== -->
+            <section class="adm-pane" id="pane-sections">
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">Section Access</h2>
+                            <p class="adm-card-subtitle">Open or lock each section independently. Locked sections stay visible with a Locked badge and block every student plan, including Diamond.</p>
+                        </div>
+                    </div>
+                    <div id="sectionAccessList" class="adm-sections-grid"></div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 TAB 4: PLANS & ACCESS
+                 ============================================================== -->
+            <section class="adm-pane" id="pane-plans">
+                <!-- Plan Names, Descriptions & Prices -->
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">Plan Settings</h2>
+                            <p class="adm-card-subtitle">Edit plan names, descriptions, and prices for Free, Gold, and Diamond.</p>
+                        </div>
+                        <button type="button" class="btn-adm-dark" onclick="savePlanSettings()">Save Plan Details</button>
+                    </div>
+                    <div id="planSettingsGrid" class="adm-plans-edit-grid"></div>
+                </div>
+
+                <!-- Assign Questions & PDFs to Plans (with Bulk Assign) -->
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">Content Access by Plan</h2>
+                            <p class="adm-card-subtitle">Choose the minimum plan required for each question and PDF, or select multiple items to assign a plan at once.</p>
+                        </div>
+                    </div>
+
+                    <div class="adm-bulk-bar">
+                        <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+                            <select id="planFilterClass" class="adm-select" style="width:auto;" onchange="renderPlanAccessTable()">
+                                <option value="all">All Sections</option>
+                                <option value="class-12">Class 12</option>
+                                <option value="class-11">Class 11</option>
+                                <option value="class-10">Class 10 (SEE)</option>
+                                <option value="after-12">Entrance Prep</option>
+                            </select>
+                            <select id="planFilterType" class="adm-select" style="width:auto;" onchange="renderPlanAccessTable()">
+                                <option value="all">Questions &amp; PDFs</option>
+                                <option value="question">Questions Only</option>
+                                <option value="pdf">PDFs Only</option>
+                            </select>
+                        </div>
+                        <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+                            <span id="bulkSelectedCount" style="font-size:0.84rem; color:var(--adm-text-muted);">0 selected</span>
+                            <select id="bulkPlanSelect" class="adm-select" style="width:auto;">
+                                <option value="free">Free</option>
+                                <option value="gold">Gold</option>
+                                <option value="diamond">Diamond</option>
+                            </select>
+                            <button type="button" class="btn-adm-dark" onclick="applyBulkPlanAssignment()">Assign Selected</button>
+                        </div>
+                    </div>
+
+                    <div class="adm-table-wrap">
+                        <table class="adm-table">
+                            <thead>
+                                <tr>
+                                    <th style="width:36px;"><input type="checkbox" id="bulkSelectAll" onchange="toggleSelectAllPlanItems(this.checked)"></th>
+                                    <th>Section</th>
+                                    <th>Type</th>
+                                    <th>Title</th>
+                                    <th style="width:170px;">Minimum Plan</th>
+                                </tr>
+                            </thead>
+                            <tbody id="planAccessTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Preview What Students on Each Plan Can Open -->
+                <div class="adm-card">
+                    <div class="adm-card-head">
+                        <div>
+                            <h2 class="adm-card-title">Student Access Preview</h2>
+                            <p class="adm-card-subtitle">See exactly which questions and PDFs a student on each plan can open right now.</p>
+                        </div>
+                        <div class="adm-preview-tabs">
+                            <button type="button" class="btn-topbar active-preview" id="previewBtn-free" onclick="setPlanPreviewTier('free')">Free</button>
+                            <button type="button" class="btn-topbar" id="previewBtn-gold" onclick="setPlanPreviewTier('gold')">Gold</button>
+                            <button type="button" class="btn-topbar" id="previewBtn-diamond" onclick="setPlanPreviewTier('diamond')">Diamond</button>
+                        </div>
+                    </div>
+                    <div id="planStudentPreviewMount"></div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <div id="adminToastContainer" class="adm-toast-container"></div>
+
+    <script src="./js/admin-studio.js?v=20261119v5"></script>
+</body>
+</html>

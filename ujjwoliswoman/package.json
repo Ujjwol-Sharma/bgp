@@ -1,0 +1,18 @@
+{
+  "name": "bpg-academy",
+  "version": "3.0.0",
+  "description": "BPG Academy — Full-Stack Student Sanctuary with Automated 6-Digit Email OTP & Light-Themed Super Admin CMS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "npx serve .",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "resend": "^4.0.0"
+  },
+  "author": "Bishnu Prasad Gautam (BPG Sir)",
+  "license": "MIT"
+}

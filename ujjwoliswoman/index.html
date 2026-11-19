@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPG Academy — Mathematics for Class 10, 11, 12 &amp; Entrance</title>
+    <meta name="description" content="BPG Academy, Pokhara, Nepal. Mathematics for Class 10, Class 11, Class 12 and IOE / CEE / KU entrance by Bishnu Prasad Gautam (BPG Sir).">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="BPG Academy — Mathematics Education">
+    <meta property="og:description" content="Concept-first mathematics for Class 10, 11, 12 and IOE / CEE / KU entrance with Bishnu Prasad Gautam (BPG Sir), Pokhara.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/bpg_sir.jpg">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- Normal Sans-Serif Font: Inter (+ Fira Code for code/calc) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- KaTeX CSS for LaTeX Math Formulas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/01-foundation-header.css?v=20261119v6">
+    <link rel="stylesheet" href="./css/02-workspaces-modals.css?v=20261119v6">
+    <link rel="stylesheet" href="./css/03-modern-extensions.css?v=20261119v6">
+    <link rel="stylesheet" href="./css/04-canonical-theme.css?v=20261119v6">
+    <link rel="stylesheet" href="./css/05-brand-guide-darkmode.css?v=20261119v6">
+    <link rel="stylesheet" href="./css/06-black-minimal.css?v=20261119v6">
+</head>
+<body class="bpg-premium" data-theme="light">
+
+    <a class="bpg-skip-link" href="#view-home">Skip to content</a>
+
+    <!-- Ambient Roaming Math Widgets Layer -->
+    <div class="roaming-widgets-layer" id="roamingWidgetsLayer" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header class="site-header bpg-header" id="siteHeader">
+        <div class="container bpg-header-inner">
+            <a href="#home" class="bpg-brand" onclick="handleHomeClick(); return false;">
+                <span class="bpg-brand-logo-wrap">
+                    <img src="images/logo.png" alt="BPG Academy" onerror="this.style.display='none'">
+                </span>
+                <span class="bpg-brand-name">BPG Academy</span>
+            </a>
+
+            <nav class="bpg-nav" id="primaryNav" aria-label="Primary Navigation">
+                <a href="#home" class="bpg-nav-link is-active" id="navHomeBtn" data-nav="home" onclick="handleHomeClick(); closeMobileNav(); return false;">Home</a>
+
+                <div class="nav-dropdown-wrap bpg-nav-dropdown" id="navClassesWrap">
+                    <button type="button" class="bpg-nav-link dropdown-trigger" id="navClassesBtn" data-nav="classes" onclick="toggleClassesDropdown(event)" aria-haspopup="true" aria-expanded="false" aria-controls="navClassesMenu">
+                        Classes <i class="fa-solid fa-chevron-down nav-chevron-icon" aria-hidden="true"></i>
+                    </button>
+                    <div class="classes-dropdown-menu bpg-dropdown" id="navClassesMenu" role="menu">
+                        <button type="button" role="menuitem" class="classes-dropdown-item" data-section-key="class-12" onclick="handleClassNavClick('c12'); closeClassesDropdown(); closeMobileNav();">
+                            <div class="dropdown-item-head"><strong>Class 12</strong><span class="section-status-badge" id="navBadge-class-12"></span></div>
+                            <small id="navSub-class-12">NEB Mat. 102 &middot; Senior Secondary</small>
+                        </button>
+                        <button type="button" role="menuitem" class="classes-dropdown-item" data-section-key="class-11" onclick="handleClassNavClick('c11'); closeClassesDropdown(); closeMobileNav();">
+                            <div class="dropdown-item-head"><strong>Class 11</strong><span class="section-status-badge" id="navBadge-class-11"></span></div>
+                            <small id="navSub-class-11">NEB Mat. 101 &middot; Foundations</small>
+                        </button>
+                        <button type="button" role="menuitem" class="classes-dropdown-item is-locked-section" data-section-key="class-10" onclick="handleClassNavClick('c10'); closeClassesDropdown(); closeMobileNav();">
+                            <div class="dropdown-item-head"><strong>Class 10</strong><span class="section-status-badge locked" id="navBadge-class-10">Locked</span></div>
+                            <small id="navSub-class-10">Temporarily unavailable</small>
+                        </button>
+                        <button type="button" role="menuitem" class="classes-dropdown-item is-locked-section" data-section-key="after-12" onclick="handleClassNavClick('entrance'); closeClassesDropdown(); closeMobileNav();">
+                            <div class="dropdown-item-head"><strong>Entrance Prep</strong><span class="section-status-badge locked" id="navBadge-after-12">Locked</span></div>
+                            <small id="navSub-after-12">Temporarily unavailable</small>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-auth-slot bpg-header-actions">
+                <!-- Guest State -->
+                <button type="button" class="btn-google-sign bpg-signin-btn" id="headerGoogleBtn" onclick="openAuthModal('signin')">
+                    <span class="btn-label-span">Sign In</span>
+                </button>
+
+                <!-- Authenticated State -->
+                <div class="user-profile-dropdown-wrap" id="userDropdownWrap" style="display:none;">
+                    <div class="student-pill-group" style="display:inline-flex; align-items:center; gap:8px;">
+                        <button type="button" class="auth-user-pill" id="headerUserPill" onclick="toggleUserDropdown(event)" aria-label="Account menu">
+                            <span class="user-avatar" id="headerUserAvatar">S</span>
+                            <span class="user-info-text">
+                                <span id="headerUserName">Student</span>
+                                <span class="user-badge-role" id="headerUserRole">Class 12</span>
+                            </span>
+                        </button>
+                        <button type="button" class="btn-pill-signout" onclick="handleSignOut()" title="Sign Out">Sign Out</button>
+                    </div>
+
+                    <div class="user-dropdown-menu" id="userDropdownMenu">
+                        <div class="user-dropdown-meta">
+                            <strong id="dropdownFullName">Student Name</strong>
+                            <small id="dropdownEmail">student@bpgacademy.edu.np</small>
+                        </div>
+                        <button type="button" class="user-dropdown-item" onclick="openMyClassWorkspace(); closeUserDropdown();">
+                            My Workspace
+                        </button>
+                        <hr style="border:none; border-top:1px solid var(--border-soft); margin:4px 0;">
+                        <button type="button" class="user-dropdown-item danger" onclick="handleSignOut()">
+                            Sign Out
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button type="button" class="bpg-menu-toggle" id="mobileMenuToggle" onclick="toggleMobileNav(event)" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Homepage (Clean Single-Screen Hero) -->
+    <main class="view-container portal-view active bpg-home" id="view-home" tabindex="-1">
+
+        <!-- Hero Section -->
+        <section class="bpg-hero bpg-hero-full" id="bpgSirHero" aria-labelledby="heroHeading">
+            <div class="container bpg-hero-grid">
+                <div class="bpg-hero-copy">
+                    <div class="hero-location-pill">
+                        <span class="hero-live-indicator"></span>
+                        Pokhara, Nepal &middot; NEB &amp; Entrance Mathematics
+                    </div>
+                    <h1 class="bpg-hero-title" id="heroHeading">
+                        Understand Mathematics.
+                        <span class="hero-muted">Master every concept.</span>
+                    </h1>
+                    <p class="bpg-hero-lead">
+                        Structured, concept-first mathematics portals for Class 10, Class 11, Class 12, and IOE / CEE / KU entrance — mentored by <strong>Bishnu Prasad Gautam (BPG Sir)</strong>.
+                    </p>
+                    <div class="bpg-hero-actions">
+                        <button type="button" class="btn-primary btn-lg" onclick="openAuthModal('signup')">
+                            Get Started <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" class="btn-secondary btn-lg" onclick="toggleWebsiteGuide()">
+                            <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> Ask BPG AI
+                        </button>
+                    </div>
+                </div>
+
+                <figure class="bpg-hero-figure">
+                    <div class="bpg-portrait-card">
+                        <div class="bpg-portrait-frame">
+                            <img src="images/bpg_sir.jpg" alt="Bishnu Prasad Gautam (BPG Sir)" class="bpg-portrait" id="heroPortraitImg" width="460" height="560" fetchpriority="high">
+                        </div>
+                        <figcaption class="bpg-portrait-caption-inline">
+                            <div>
+                                <strong>Bishnu Prasad Gautam</strong>
+                                <span>Founder &amp; Lead Faculty &middot; BPG Sir</span>
+                            </div>
+                            <span class="portrait-tu-tag">TU M.Sc.</span>
+                        </figcaption>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Dynamic Dedicated Class Workspaces Mount (js/ui-templates.js) -->
+    <div id="bpgWorkspacesMount"></div>
+
+    <!-- Compact Footer -->
+    <footer class="site-footer bpg-footer bpg-footer-compact" id="contactSection">
+        <div class="container">
+            <div class="minimal-footer-row">
+                <span>&copy; 2026 BPG Academy &middot; Pokhara, Nepal</span>
+                <div class="minimal-footer-links">
+                    <a href="https://wa.me/9779841000000?text=Namaste%20BPG%20Sir%2C%20I%20have%20an%20academic%20inquiry%20regarding%20BPG%20Academy" target="_blank" rel="noopener">WhatsApp</a>
+                    <a href="#ai" onclick="toggleWebsiteGuide(); return false;">Ask BPG AI</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dynamic Modals Mount -->
+    <div id="bpgModalsMount"></div>
+
+    <!-- KaTeX JS for LaTeX Math Rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+    <!-- Application Scripts -->
+    <script src="./js/ui-templates.js?v=20261119v6"></script>
+    <script src="./js/state-sync.js?v=20261119v6"></script>
+    <script src="./js/portal-renderer.js?v=20261119v6"></script>
+    <script src="./js/router-access.js?v=20261119v6"></script>
+    <script src="./js/widgets-ai.js?v=20261119v6"></script>
+    <script src="./js/auth-otp.js?v=20261119v6"></script>
+    <script src="./js/app-init.js?v=20261119v6"></script>
+</body>
+</html>

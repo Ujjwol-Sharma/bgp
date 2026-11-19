@@ -1,0 +1,101 @@
+{
+  "lastUpdated": "2026-11-19T14:56:57.774Z",
+  "accounts": [
+    {
+      "name": "uofo",
+      "email": "intumintuchintu76@gmail.com",
+      "canonicalEmail": "intumintuchintu76@gmail.com",
+      "grade": "Class 12",
+      "classKey": "class-12",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": false,
+      "passkey": "itrf",
+      "joinedAt": "2026-11-19"
+    },
+    {
+      "name": "intumintuchintu76@gmail.com",
+      "email": "r3f43tv@gmail.com",
+      "canonicalEmail": "r3f43tv@gmail.com",
+      "grade": "Class 12",
+      "classKey": "class-12",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": true,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-19"
+    },
+    {
+      "name": "Uytd7td",
+      "email": "uytd7td@gmail.com",
+      "canonicalEmail": "uytd7td@gmail.com",
+      "grade": "Class 12",
+      "classKey": "class-12",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": true,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-19"
+    },
+    {
+      "name": "John Doe",
+      "email": "john@email.com",
+      "canonicalEmail": "john@email.com",
+      "grade": "Class 12",
+      "classKey": "class-12",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": true,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-10"
+    },
+    {
+      "name": "Suman Sharma",
+      "email": "suman@bpgacademy.edu.np",
+      "canonicalEmail": "suman@bpgacademy.edu.np",
+      "grade": "Class 12",
+      "classKey": "class-12",
+      "plan": "free",
+      "planExplicitlySet": true,
+      "legacyAccess": false,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-14"
+    },
+    {
+      "name": "Rohan Sharma",
+      "email": "rohan.sharma@gmail.com",
+      "canonicalEmail": "rohansharma@gmail.com",
+      "grade": "Class 11",
+      "classKey": "class-11",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": true,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-03"
+    },
+    {
+      "name": "Aayush KC",
+      "email": "aayush.kc@gmail.com",
+      "canonicalEmail": "aayushkc@gmail.com",
+      "grade": "Class 10",
+      "classKey": "class-10",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": true,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-04"
+    },
+    {
+      "name": "Prabhat Paudel",
+      "email": "prabhat.entrance@gmail.com",
+      "canonicalEmail": "prabhatentrance@gmail.com",
+      "grade": "After 12 Entrance",
+      "classKey": "after-12",
+      "plan": "free",
+      "planExplicitlySet": false,
+      "legacyAccess": true,
+      "passkey": "bpgstudent",
+      "joinedAt": "2026-11-05"
+    }
+  ]
+}

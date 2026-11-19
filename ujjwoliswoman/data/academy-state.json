@@ -1,0 +1,2268 @@
+{
+  "lastUpdated": "2026-11-19T09:42:59.211Z",
+  "faculty": {
+    "name": "Bishnu Prasad Gautam",
+    "nickname": "(BPG Sir)",
+    "badgeText": "Over 12+ Years of Senior Secondary Academic Leadership",
+    "portraitUrl": "./images/bpg_sir.jpg",
+    "mottoHtml": "Focus on the <strong class=\"glowing-concept-word\">Concepts</strong> Rather Than the <strong>Problems</strong>.",
+    "whatsappNumber": "9779841000000",
+    "whatsappGreeting": "Namaste BPG Sir, I have an academic inquiry regarding BPG Academy."
+  },
+  "class10Card": {
+    "unitCount": "CDC SEE &bull; C. Math &amp; Opt. Math &bull; 75 Marks",
+    "title": "Class 10 (SEE) Portal",
+    "focus": "Sets, Compound Interest, Mensuration, Circle Rider Theorems, Trigonometry, Optional Math Coordinate Conics, Matrices, Vectors &amp; Transformations."
+  },
+  "class11Card": {
+    "unitCount": "NEB Mat. 101 &bull; 6 Core Units &bull; 75 Marks",
+    "title": "Class 11 Mathematics Portal",
+    "focus": "Mathematical Logic, Set Theory, Complex Numbers, Quadratic Equations, Analytical Circles, and First-Principle Calculus."
+  },
+  "class12Card": {
+    "unitCount": "NEB Mat. 102 &bull; 7 Core Units &bull; 75 Marks",
+    "title": "Class 12 (NEB Mat. 102)",
+    "focus": "Advanced Integration, 3D Vectors &amp; Skew Lines, Differential Equations, Permutations, Binomial Theorem, De Moivre’s Theorem &amp; Conic Sections."
+  },
+  "after12Card": {
+    "unitCount": "IOE Pulchowk / CEE / KU &bull; 50 Marks Math Blueprint",
+    "title": "After 12 Entrance (IOE / CEE / KU)",
+    "focus": "10-second MCQ elimination strategies, Casio FX-991ES/CW calculator speed hacks, 15-year Pulchowk past paper solutions, and graphical inspection techniques."
+  },
+  "calendarEvents": [
+    {
+      "id": "cal-c12-sun",
+      "portal": "class-12",
+      "title": "Sunday Concept Diagnostic & Live Q&A",
+      "type": "batch",
+      "recurrenceLabel": "Every Sunday",
+      "timings": "06:30 AM – 07:45 AM NPT",
+      "meetingId": "984 1023 8899",
+      "passcode": "BPG2026",
+      "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+      "syllabus": "Calculus first principles, integration without step loss, and live doubt resolution with BPG Sir."
+    },
+    {
+      "id": "cal-c12-sat",
+      "portal": "class-12",
+      "title": "Grade XII Calculus Distinction & Problem Bank Walkthrough",
+      "type": "batch",
+      "recurrenceLabel": "Every Saturday",
+      "timings": "7:00 PM – 8:30 PM NPT",
+      "meetingId": "984 1023 8899",
+      "passcode": "BPG2026",
+      "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+      "syllabus": "Differential equations, standard integrals, 3D vector planes, and NEB model exam analysis."
+    },
+    {
+      "id": "cal-c11-sun",
+      "portal": "class-11",
+      "title": "Grade XI Foundation & Mathematical Logic Workshop",
+      "type": "batch",
+      "recurrenceLabel": "Every Sunday",
+      "timings": "6:30 AM – 7:45 AM NPT",
+      "meetingId": "984 1023 8899",
+      "passcode": "BPG2026",
+      "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+      "syllabus": "Limits, continuity, first-principle derivatives, and analytical circles."
+    },
+    {
+      "id": "cal-c10-sat",
+      "portal": "class-10",
+      "title": "SEE Circle Theorems & Unseen Riders Clinic",
+      "type": "batch",
+      "recurrenceLabel": "Every Saturday",
+      "timings": "4:00 PM – 5:15 PM NPT",
+      "meetingId": "984 1023 8899",
+      "passcode": "BPG2026",
+      "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+      "syllabus": "Geometric circle theorem proofs, 3-set Venn diagrams, and optional math trigonometry."
+    },
+    {
+      "id": "cal-ent-daily",
+      "portal": "after-12",
+      "title": "IOE Pulchowk CBT Speed Calculus & Casio FX-991 Drill",
+      "type": "batch",
+      "recurrenceLabel": "Every Morning (Sun–Fri)",
+      "timings": "7:45 AM – 9:00 AM NPT",
+      "meetingId": "984 1023 8899",
+      "passcode": "BPGIOE26",
+      "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGIOE26",
+      "syllabus": "10-second MCQ elimination techniques, King’s property integrals, and Pulchowk past papers."
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Strict Single-Class Dedicated Architecture Live",
+      "body": "All workspaces now operate with dedicated single-class student accounts. All notes and Zoom sessions are completely open within your enrolled class.",
+      "tag": "System Update",
+      "time": "Just now",
+      "unread": true
+    },
+    {
+      "id": "ann-2",
+      "title": "Free Sunday Concept Diagnostic at 06:30 AM NPT",
+      "body": "Join BPG Sir this Sunday on Zoom for open diagnostic problem-solving and live mathematical derivations.",
+      "tag": "Live Lecture",
+      "time": "Today",
+      "unread": true
+    }
+  ],
+  "portals": {
+    "class-10": {
+      "bannerTitle": "Class 10 (SEE) Mathematics Portal",
+      "bannerSub": "Instructed by Bishnu Prasad Gautam (BPG Sir) • Over 12+ Years of Senior Secondary Academic Leadership",
+      "curriculumHeader": "CDC SEE Specification Grid",
+      "gradeTitle": "Class 10 (SEE Mathematics Foundation)",
+      "live": {
+        "batchLabel": "SEE DISTINCTION & +2 BRIDGE BATCH (CLASS 10)",
+        "roomTitle": "Class 10 SEE Compulsory & Optional Math Live Room",
+        "desc": "Step-by-step Unseen Circle Rider proofs, Compound Interest & Mensuration problem-solving, and Optional Math Trigonometry/Vectors with BPG Sir.",
+        "meetingId": "984 1023 8899",
+        "passcode": "BPGSEE10",
+        "timings": "4:00 PM – 5:00 PM NPT (Sun – Fri)",
+        "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGSEE10",
+        "routine": [
+          {
+            "day": "Sun – Mon",
+            "topic": "Geometry Circle Riders, Cyclic Quadrilaterals & Tangents"
+          },
+          {
+            "day": "Tue – Wed",
+            "topic": "Opt. Math Trigonometry, Conditional Identities & Heights"
+          },
+          {
+            "day": "Thursday",
+            "topic": "Compound Interest, Currency Exchange & Mensuration"
+          },
+          {
+            "day": "Friday – Sat",
+            "topic": "Opt. Math Vectors, Matrices, Transformations & SEE Mock Test"
+          }
+        ]
+      },
+      "syllabusRows": [
+        {
+          "code": "Unit 01",
+          "name": "Sets, Venn Diagrams & Cardinality Applications",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Full Set Problem (4M + 2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Arithmetic (Compound Interest & Money Exchange)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "3 Structured Problems"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Mensuration (Prisms, Pyramids, Cones & Solids)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "2 Structured + 1 High-Order Rider"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Algebra (Indices, Expressions & Quadratics)",
+          "hours": "30 hrs",
+          "marks": "15 Marks",
+          "focus": "Simplification + Word Problem"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Geometry (Circle Theorems & Unseen Riders)",
+          "hours": "28 hrs",
+          "marks": "13 Marks",
+          "focus": "Theoretical Proof + Unseen Rider"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Trigonometry & Statistics (Heights & Distances, Quartiles)",
+          "hours": "26 hrs",
+          "marks": "15 Marks",
+          "focus": "Elevation/Depression + Median/Ogive"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Circle Theorems & Unseen Geometric Riders",
+          "marks": "13 Marks",
+          "topics": [
+            {
+              "id": "c10-u1-t1",
+              "title": "1.1 Central Angle vs Inscribed Angle Theorem",
+              "readTime": "12 min read",
+              "badge": "SEE 4-Mark Staple",
+              "overview": "The central angle subtended by an arc at the center of a circle is double the angle subtended by it at any point on the remaining circumference.",
+              "definitions": "$$\\angle AOB = 2\\angle ACB \\quad (\\text{Standing on the same arc } AB)$$\n$$\\angle ADB = \\angle ACB \\quad (\\text{Inscribed angles on the same arc})$$",
+              "derivation": "In $\\triangle OAC$, since $OA = OC = r$, $\\triangle OAC$ is isosceles, so $\\angle OCA = \\angle OAC$. By the exterior angle theorem, the exterior angle at $O$ is $2\\angle OCA$. Repeating for $\\triangle OBC$ establishes $\\angle AOB = 2\\angle ACB$.",
+              "example": "Prove that angles in the same segment of a circle are equal.",
+              "pitfalls": "In SEE 2-column proofs, always write the exact CDC theorem reason in brackets for every single statement step!",
+              "minPlan": "free",
+              "adminAssignedPlan": false
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "n10-1",
+          "title": "SEE Compulsory Math Complete Formula & Theorem Handbook",
+          "unit": "All Units (C. Math)",
+          "fileSize": "2.1 MB",
+          "pages": "38 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n10-2",
+          "title": "SEE Optional Math: Trigonometry, Vectors & Matrix Masterbook",
+          "unit": "Opt. Math All Units",
+          "fileSize": "2.6 MB",
+          "pages": "46 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n10-3",
+          "title": "50 Solved Unseen Circle Riders & Geometry Proofs by BPG Sir",
+          "unit": "Unit 05: Geometry",
+          "fileSize": "3.4 MB",
+          "pages": "54 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "pdf_1794284959144",
+          "title": "Gk",
+          "url": "https://example.com/notes.pdf",
+          "fileUrl": "https://example.com/notes.pdf",
+          "type": "Paid Distinction",
+          "badgeClass": "paid",
+          "size": "PDF",
+          "fileSize": "PDF",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "plans": [
+        {
+          "tier": "free",
+          "badge": "Free Community",
+          "name": "Class 10 SEE Self-Study Pack",
+          "price": "Rs. 0",
+          "period": "Lifetime Free",
+          "ctaLabel": "Continue with Free Plan",
+          "whatsappMessage": "Namaste BPG Sir, I am using the Class 10 SEE Free Community Pack.",
+          "features": [
+            "Complete SEE Compulsory & Optional Math Syllabus Grid",
+            "Access to All Textbook Theory & Theorem Chapters",
+            "Free Downloadable SEE Formula Sheets",
+            "Public Exam Notices & Announcements"
+          ]
+        },
+        {
+          "tier": "gold",
+          "badge": "SEE 4.0 GPA Batch",
+          "name": "Class 10 C. Math + Opt. Math Mastery",
+          "price": "Rs. 2,499",
+          "period": "Full Academic Year",
+          "ctaLabel": "Enroll in SEE Batch",
+          "whatsappMessage": "Namaste BPG Sir, I want to enroll in Class 10 SEE Mastery (Rs. 2,499).",
+          "features": [
+            "Daily Evening Live Zoom Classes with BPG Sir (4:00 PM)",
+            "Both Compulsory & Optional Mathematics Covered",
+            "50+ Unseen Circle Rider Proof Workshops",
+            "Weekly 75-Marks SEE Board Mock Exams"
+          ]
+        },
+        {
+          "tier": "diamond",
+          "badge": "Diamond Bridge",
+          "name": "SEE 4.0 GPA + After-SEE Bridge Course",
+          "price": "Rs. 3,499",
+          "period": "SEE + Science Bridge Course Entrance",
+          "ctaLabel": "Join Diamond Bridge",
+          "whatsappMessage": "Namaste BPG Sir, I want to join the Class 10 Diamond Bridge Batch (Rs. 3,499).",
+          "features": [
+            "Everything in SEE 4.0 GPA Batch Included",
+            "Direct 1-on-1 WhatsApp Doubt Mentorship with BPG Sir",
+            "After-SEE +2 Science Bridge & MCQ Entrance Prep",
+            "10-Year Solved SEE & District Topper Question Archive"
+          ]
+        }
+      ],
+      "thumbUrl": "images/thumb_c10.jpg",
+      "notesPdfs": [
+        {
+          "id": "n10-1",
+          "title": "SEE Compulsory Math Complete Formula & Theorem Handbook",
+          "unit": "All Units (C. Math)",
+          "fileSize": "2.1 MB",
+          "pages": "38 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n10-2",
+          "title": "SEE Optional Math: Trigonometry, Vectors & Matrix Masterbook",
+          "unit": "Opt. Math All Units",
+          "fileSize": "2.6 MB",
+          "pages": "46 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n10-3",
+          "title": "50 Solved Unseen Circle Riders & Geometry Proofs by BPG Sir",
+          "unit": "Unit 05: Geometry",
+          "fileSize": "3.4 MB",
+          "pages": "54 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "pdf_1794284959144",
+          "title": "Gk",
+          "url": "https://example.com/notes.pdf",
+          "fileUrl": "https://example.com/notes.pdf",
+          "type": "Paid Distinction",
+          "badgeClass": "paid",
+          "size": "PDF",
+          "fileSize": "PDF",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "description": "Strengthen mathematical fundamentals through algebra, geometry, trigonometry, coordinate geometry and examination-focused practice.",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "blueprint": [
+        {
+          "code": "Unit 01",
+          "name": "Sets, Venn Diagrams & Cardinality Applications",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Full Set Problem (4M + 2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Arithmetic (Compound Interest & Money Exchange)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "3 Structured Problems"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Mensuration (Prisms, Pyramids, Cones & Solids)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "2 Structured + 1 High-Order Rider"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Algebra (Indices, Expressions & Quadratics)",
+          "hours": "30 hrs",
+          "marks": "15 Marks",
+          "focus": "Simplification + Word Problem"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Geometry (Circle Theorems & Unseen Riders)",
+          "hours": "28 hrs",
+          "marks": "13 Marks",
+          "focus": "Theoretical Proof + Unseen Rider"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Trigonometry & Statistics (Heights & Distances, Quartiles)",
+          "hours": "26 hrs",
+          "marks": "15 Marks",
+          "focus": "Elevation/Depression + Median/Ogive"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Circle Theorems & Unseen Geometric Riders",
+          "marks": "13 Marks",
+          "topics": [
+            {
+              "id": "c10-u1-t1",
+              "title": "1.1 Central Angle vs Inscribed Angle Theorem",
+              "readTime": "12 min read",
+              "badge": "SEE 4-Mark Staple",
+              "overview": "The central angle subtended by an arc at the center of a circle is double the angle subtended by it at any point on the remaining circumference.",
+              "definitions": "$$\\angle AOB = 2\\angle ACB \\quad (\\text{Standing on the same arc } AB)$$\n$$\\angle ADB = \\angle ACB \\quad (\\text{Inscribed angles on the same arc})$$",
+              "derivation": "In $\\triangle OAC$, since $OA = OC = r$, $\\triangle OAC$ is isosceles, so $\\angle OCA = \\angle OAC$. By the exterior angle theorem, the exterior angle at $O$ is $2\\angle OCA$. Repeating for $\\triangle OBC$ establishes $\\angle AOB = 2\\angle ACB$.",
+              "example": "Prove that angles in the same segment of a circle are equal.",
+              "pitfalls": "In SEE 2-column proofs, always write the exact CDC theorem reason in brackets for every single statement step!"
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-c10-sat",
+          "portal": "class-10",
+          "title": "SEE Circle Theorems & Unseen Riders Clinic",
+          "type": "batch",
+          "recurrenceLabel": "Every Saturday",
+          "timings": "4:00 PM – 5:15 PM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Geometric circle theorem proofs, 3-set Venn diagrams, and optional math trigonometry."
+        }
+      ],
+      "metaLive": "Sunday Open Clinic"
+    },
+    "class-11": {
+      "bannerTitle": "Class 11 Mathematics Portal",
+      "bannerSub": "Instructed by Bishnu Prasad Gautam (BPG Sir) • Over 12+ Years of Senior Secondary Academic Leadership",
+      "curriculumHeader": "NEB Official Specification Grid",
+      "gradeTitle": "Grade XI Mathematics (Mat. 101)",
+      "live": {
+        "batchLabel": "DAILY MORNING BATCH (CLASS 11)",
+        "roomTitle": "Class 11 Live Derivation & Problem Solving Room",
+        "desc": "Interactive digital whiteboard lectures, first-principle calculus proofs, and live doubt resolution with Bishnu Prasad Gautam (BPG Sir).",
+        "meetingId": "984 1023 8899",
+        "passcode": "BPGMATH11",
+        "timings": "6:30 AM – 7:45 AM NPT (Sun – Fri)",
+        "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGMATH11",
+        "routine": [
+          {
+            "day": "Sun – Tue",
+            "topic": "Calculus & Limits (First-Principle Derivatives)"
+          },
+          {
+            "day": "Wed – Thu",
+            "topic": "Algebra, Complex Numbers & Quadratic Equations"
+          },
+          {
+            "day": "Friday",
+            "topic": "Analytical Geometry, Pair of Lines & Circle"
+          },
+          {
+            "day": "Saturday",
+            "topic": "75-Marks NEB Board Mock Exam & Red-Pen Review"
+          }
+        ]
+      },
+      "syllabusRows": [
+        {
+          "code": "Unit 01",
+          "name": "Logic, Set Theory & Real Number System",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Short (4M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Algebra & Matrices (Quadratics, Complex Numbers, Determinants)",
+          "hours": "32 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Trigonometry (General Solutions & Inverse Functions)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Analytic Geometry (Pair of Straight Lines & Circle)",
+          "hours": "20 hrs",
+          "marks": "10 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Vectors (Scalar Product & Vector Algebra)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Short (4M) + 1 Short (2M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Calculus (Limits, Continuity, First Principles & Integrals)",
+          "hours": "38 hrs",
+          "marks": "17 Marks",
+          "focus": "2 Long (10M) + 2 Short (5M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 07",
+          "name": "Probability & Statistics (Skewness & Dispersion)",
+          "hours": "26 hrs",
+          "marks": "11 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 2 MCQ (2M)"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Limits, Continuity & First-Principle Derivatives",
+          "marks": "17 Marks",
+          "topics": [
+            {
+              "id": "c11-u1-t1",
+              "title": "1.1 Fundamental Trigonometric Limits & First Principles",
+              "readTime": "14 min read",
+              "badge": "17 Marks Core",
+              "overview": "The derivative of a function $f(x)$ represents its instantaneous rate of change and is formally defined through the fundamental limit of a difference quotient as $h \\to 0$.",
+              "definitions": "$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$\n$$\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1 \\quad (\\theta \\text{ in radians})$$",
+              "derivation": "To prove $\\frac{d}{dx}(\\sin x) = \\cos x$ by First Principles:\n$$f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin x}{h} = \\lim_{h \\to 0} \\frac{2\\cos\\left(x + \\frac{h}{2}\\right)\\sin\\left(\\frac{h}{2}\\right)}{h} = \\lim_{h \\to 0} \\cos\\left(x + \\frac{h}{2}\\right) \\cdot \\lim_{h \\to 0} \\frac{\\sin(h/2)}{h/2} = \\cos x \\cdot 1 = \\cos x.$$",
+              "example": "Find the derivative of $f(x) = \\sqrt{x}$ from first principles.",
+              "pitfalls": "When evaluating trigonometric limits from first principles, always verify that the argument inside $\\sin$ matches the denominator before applying the standard limit value $1$.",
+              "minPlan": "free",
+              "adminAssignedPlan": false
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "n11-1",
+          "title": "Class 11 Complete Formula & Identity Masterbook",
+          "unit": "All Units",
+          "fileSize": "2.4 MB",
+          "pages": "42 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n11-2",
+          "title": "First-Principle Calculus: 25 Solved Board Derivations",
+          "unit": "Unit 05: Calculus",
+          "fileSize": "1.9 MB",
+          "pages": "36 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n11-3",
+          "title": "BPG Sir Handwritten Notes: Complex Numbers & Quadratics",
+          "unit": "Unit 02: Algebra",
+          "fileSize": "4.1 MB",
+          "pages": "64 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n11-4",
+          "title": "Analytical Geometry: Pair of Lines & Circle Red-Pen Guide",
+          "unit": "Unit 04: Geometry",
+          "fileSize": "3.2 MB",
+          "pages": "48 Pages",
+          "type": "Diamond Ranker",
+          "badgeClass": "diamond",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "plans": [
+        {
+          "tier": "free",
+          "badge": "Free Community",
+          "name": "Class 11 Self-Study Pack",
+          "price": "Rs. 0",
+          "period": "Lifetime Free",
+          "ctaLabel": "Continue with Free Plan",
+          "whatsappMessage": "Namaste BPG Sir, I am using the Class 11 Free Community Pack.",
+          "features": [
+            "Complete Class 11 NEB Syllabus & Weightage Grid",
+            "Access to All Textbook Theory Chapters",
+            "Free Sample Formula Sheets (PDF)",
+            "Public Exam Notices & Announcements"
+          ]
+        },
+        {
+          "tier": "gold",
+          "badge": "Board Distinction",
+          "name": "Class 11 NEB Board Mastery",
+          "price": "Rs. 2,999",
+          "period": "Yearly Batch",
+          "ctaLabel": "Enroll in Distinction Batch",
+          "whatsappMessage": "Namaste BPG Sir, I want to enroll in Class 11 NEB Board Mastery (Rs. 2,999).",
+          "features": [
+            "Daily Morning Live Zoom Classes with BPG Sir (6:30 AM)",
+            "Complete Handwritten Notes & Solved Exercise PDFs",
+            "BPG Sir’s Red-Pen Common Mistake Workbook",
+            "Weekly 75-Marks Saturday Board Mock Tests"
+          ]
+        },
+        {
+          "tier": "diamond",
+          "badge": "Diamond Ranker",
+          "name": "Class 11 Board + Pre-IOE Track",
+          "price": "Rs. 4,499",
+          "period": "Yearly + Entrance Track",
+          "ctaLabel": "Join Diamond Ranker",
+          "whatsappMessage": "Namaste BPG Sir, I want to join the Class 11 Diamond Ranker Batch (Rs. 4,499).",
+          "features": [
+            "Everything in Board Distinction Included",
+            "1-on-1 Direct WhatsApp Doubt Mentorship with BPG Sir",
+            "Early IOE Pulchowk & CEE MCQ Speed Foundation",
+            "Diamond Exclusive 10-Year Solved Question Bank"
+          ]
+        }
+      ],
+      "thumbUrl": "images/thumb_c11.jpg",
+      "notesPdfs": [
+        {
+          "id": "n11-1",
+          "title": "Class 11 Complete Formula & Identity Masterbook",
+          "unit": "All Units",
+          "fileSize": "2.4 MB",
+          "pages": "42 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n11-2",
+          "title": "First-Principle Calculus: 25 Solved Board Derivations",
+          "unit": "Unit 05: Calculus",
+          "fileSize": "1.9 MB",
+          "pages": "36 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n11-3",
+          "title": "BPG Sir Handwritten Notes: Complex Numbers & Quadratics",
+          "unit": "Unit 02: Algebra",
+          "fileSize": "4.1 MB",
+          "pages": "64 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n11-4",
+          "title": "Analytical Geometry: Pair of Lines & Circle Red-Pen Guide",
+          "unit": "Unit 04: Geometry",
+          "fileSize": "3.2 MB",
+          "pages": "48 Pages",
+          "type": "Diamond Ranker",
+          "badgeClass": "diamond",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "description": "Build strong mathematical foundations through clear explanations, logical problem-solving and systematic examination preparation.",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "blueprint": [
+        {
+          "code": "Unit 01",
+          "name": "Logic, Set Theory & Real Number System",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Short (4M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Algebra & Matrices (Quadratics, Complex Numbers, Determinants)",
+          "hours": "32 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Trigonometry (General Solutions & Inverse Functions)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Analytic Geometry (Pair of Straight Lines & Circle)",
+          "hours": "20 hrs",
+          "marks": "10 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Vectors (Scalar Product & Vector Algebra)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Short (4M) + 1 Short (2M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Calculus (Limits, Continuity, First Principles & Integrals)",
+          "hours": "38 hrs",
+          "marks": "17 Marks",
+          "focus": "2 Long (10M) + 2 Short (5M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 07",
+          "name": "Probability & Statistics (Skewness & Dispersion)",
+          "hours": "26 hrs",
+          "marks": "11 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 2 MCQ (2M)"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Limits, Continuity & First-Principle Derivatives",
+          "marks": "17 Marks",
+          "topics": [
+            {
+              "id": "c11-u1-t1",
+              "title": "1.1 Fundamental Trigonometric Limits & First Principles",
+              "readTime": "14 min read",
+              "badge": "17 Marks Core",
+              "overview": "The derivative of a function $f(x)$ represents its instantaneous rate of change and is formally defined through the fundamental limit of a difference quotient as $h \\to 0$.",
+              "definitions": "$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$\n$$\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1 \\quad (\\theta \\text{ in radians})$$",
+              "derivation": "To prove $\\frac{d}{dx}(\\sin x) = \\cos x$ by First Principles:\n$$f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin x}{h} = \\lim_{h \\to 0} \\frac{2\\cos\\left(x + \\frac{h}{2}\\right)\\sin\\left(\\frac{h}{2}\\right)}{h} = \\lim_{h \\to 0} \\cos\\left(x + \\frac{h}{2}\\right) \\cdot \\lim_{h \\to 0} \\frac{\\sin(h/2)}{h/2} = \\cos x \\cdot 1 = \\cos x.$$",
+              "example": "Find the derivative of $f(x) = \\sqrt{x}$ from first principles.",
+              "pitfalls": "When evaluating trigonometric limits from first principles, always verify that the argument inside $\\sin$ matches the denominator before applying the standard limit value $1$."
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-c11-sun",
+          "portal": "class-11",
+          "title": "Grade XI Foundation & Mathematical Logic Workshop",
+          "type": "batch",
+          "recurrenceLabel": "Every Sunday",
+          "timings": "6:30 AM – 7:45 AM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Limits, continuity, first-principle derivatives, and analytical circles."
+        }
+      ],
+      "metaLive": "Weekly Zoom Batch"
+    },
+    "class-12": {
+      "bannerTitle": "Class 12 Mathematics Portal",
+      "bannerSub": "Instructed by Bishnu Prasad Gautam (BPG Sir) • Over 12+ Years of Senior Secondary Academic Leadership",
+      "curriculumHeader": "NEB Official Specification Grid",
+      "gradeTitle": "Grade XII Mathematics (Mat. 102)",
+      "live": {
+        "batchLabel": "DAILY EVENING BATCH (CLASS 12)",
+        "roomTitle": "Class 12 NEB Board Distinction Live Lecture Room",
+        "desc": "Focused derivations on Standard Integrals, Differential Equations, Conic Sections, De Moivre’s Theorem, and 3D Vectors with BPG Sir.",
+        "meetingId": "984 1023 8899",
+        "passcode": "BPGMATH12",
+        "timings": "5:00 PM – 6:15 PM NPT (Sun – Fri)",
+        "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGMATH12",
+        "routine": [
+          {
+            "day": "Sun – Tue",
+            "topic": "Advanced Integration, Area Bounded & Differential Equations"
+          },
+          {
+            "day": "Wed – Thu",
+            "topic": "Permutations, Binomial Theorem & De Moivre Complex"
+          },
+          {
+            "day": "Friday",
+            "topic": "Analytical Conics, 3D Planes & Vector Cross Products"
+          },
+          {
+            "day": "Saturday",
+            "topic": "NEB Board 75-Marks Mock Exam & Red-Pen Evaluation"
+          }
+        ]
+      },
+      "syllabusRows": [
+        {
+          "code": "Unit 01",
+          "domain": "Algebra",
+          "hours": "28 hrs",
+          "marks": "15 Marks",
+          "weightage": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "domain": "Trigonometry",
+          "hours": "14 hrs",
+          "marks": "8 Marks",
+          "weightage": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 03",
+          "domain": "Analytic Geometry",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "weightage": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "domain": "Vectors & 3D Geometry",
+          "hours": "20 hrs",
+          "marks": "14 Marks",
+          "weightage": "1 Long (5M) + 3 Short (6M) + 3 MCQ (3M)"
+        },
+        {
+          "code": "Unit 05",
+          "domain": "Calculus",
+          "hours": "45 hrs",
+          "marks": "20 Marks",
+          "weightage": "2 Long (10M) + 4 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "domain": "Computational Methods",
+          "hours": "22 hrs",
+          "marks": "10 Marks",
+          "weightage": "2 Short (8M) + 2 MCQ (2M)"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus & First-Principle Integration",
+          "marks": "20 Marks",
+          "topics": [
+            {
+              "id": "c12-u1-t1",
+              "title": "1.1 Fundamental Theorem of Calculus & Standard Antiderivatives",
+              "readTime": "15 min read",
+              "badge": "20 Marks Total",
+              "overview": "Integration is the analytical inverse of differentiation. For any continuous real function $f(x)$ over an interval $[a, b]$, the definite integral represents the signed area under the curve, defined rigorously by Riemann sums and the Fundamental Theorem of Calculus.",
+              "definitions": "$$\\int f(x)\\,dx = F(x) + C \\quad \\text{where } F'(x) = f(x)$$\n$$\\int_{a}^{b} f(x)\\,dx = F(b) - F(a) = \\lim_{n \\to \\infty} \\sum_{i=1}^n f(x_i^*)\\,\\Delta x$$",
+              "derivation": "By the Fundamental Theorem of Calculus: Let $A(x) = \\int_a^x f(t)\\,dt$. The derivative is given by the definition:\n$$A'(x) = \\lim_{h \\to 0} \\frac{A(x+h) - A(x)}{h} = \\lim_{h \\to 0} \\frac{1}{h}\\int_x^{x+h} f(t)\\,dt = f(x).$$\nHence every continuous function possesses an antiderivative $F(x)$, and any two antiderivatives differ only by an arbitrary constant $C$.",
+              "example": "NEB 5-Mark Problem: Evaluate $\\int \\frac{dx}{x^2 - a^2}$.\nSolution: Decomposing into partial fractions:\n$$\\frac{1}{x^2 - a^2} = \\frac{1}{2a}\\left(\\frac{1}{x - a} - \\frac{1}{x + a}\\right)$$\nIntegrating term-by-term yields:\n$$\\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C.$$",
+              "pitfalls": "Omitting the arbitrary constant $+ C$ in indefinite integration forfeits the step mark automatically in NEB board evaluation! Always verify whether boundary conditions exist before removing $C$.",
+              "minPlan": "free",
+              "adminAssignedPlan": false
+            }
+          ]
+        },
+        {
+          "code": "UNIT 02",
+          "title": "Conic Sections & Analytical Eccentricity",
+          "marks": "8 Marks",
+          "topics": [
+            {
+              "id": "c12-u2-t1",
+              "title": "2.1 Parabola, Ellipse & Hyperbola Standard Locus Proofs",
+              "readTime": "14 min read",
+              "badge": "8 Marks Unit",
+              "overview": "A conic section is the locus of a point $P(x, y)$ whose distance from a fixed focus $S$ is in constant ratio $e$ (eccentricity) to its perpendicular distance from a directrix line: $SP = e \\cdot PM$.",
+              "definitions": "$$\\text{Ellipse } (e < 1): \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(1 - e^2)$$\n$$\\text{Hyperbola } (e > 1): \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(e^2 - 1)$$",
+              "derivation": "Using focus $S(ae, 0)$ and directrix $x = a/e$, locus $SP^2 = e^2 PM^2$ gives $(x - ae)^2 + y^2 = e^2(x - a/e)^2 = (ex - a)^2$. Expanding and collecting terms gives $x^2(1 - e^2) + y^2 = a^2(1 - e^2)$, dividing through yields $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.",
+              "example": "Find the eccentricity, foci and latus rectum of $9x^2 + 16y^2 = 144$.",
+              "pitfalls": "Always check whether $a^2 > b^2$ (major axis along x-axis) or $b^2 > a^2$ (major axis along y-axis) before writing foci coordinates!",
+              "minPlan": "gold",
+              "adminAssignedPlan": false
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "n12-1",
+          "title": "Class 12 Master Integration & Differential Equations Handbook",
+          "unit": "Unit 06: Calculus",
+          "fileSize": "3.1 MB",
+          "pages": "58 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n12-2",
+          "title": "Conic Sections (Parabola, Ellipse, Hyperbola) Formula Matrix",
+          "unit": "Unit 05: Conics",
+          "fileSize": "1.8 MB",
+          "pages": "34 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n12-3",
+          "title": "BPG Sir Handwritten Notes: Permutations, Binomial & Complex",
+          "unit": "Units 01 – 03",
+          "fileSize": "4.6 MB",
+          "pages": "76 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n12-4",
+          "title": "3D Coordinates, Planes & Vector Cross Products Complete Guide",
+          "unit": "Unit 07: 3D & Vectors",
+          "fileSize": "2.9 MB",
+          "pages": "44 Pages",
+          "type": "Diamond Ranker",
+          "badgeClass": "diamond",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "plans": [
+        {
+          "tier": "free",
+          "badge": "Free Community",
+          "name": "Class 12 Self-Study Vault",
+          "price": "Rs. 0",
+          "period": "Lifetime Free",
+          "ctaLabel": "Continue with Free Plan",
+          "whatsappMessage": "Namaste BPG Sir, I am using the Class 12 Free Community Vault.",
+          "features": [
+            "Complete Class 12 NEB Syllabus & Weightage Grid",
+            "Access to All Textbook Theory Chapters",
+            "Free Sample Integration & Conic Formula Sheets (PDF)",
+            "Public Exam Notices & Announcements"
+          ]
+        },
+        {
+          "tier": "gold",
+          "badge": "Board Distinction",
+          "name": "Class 12 NEB Board Mastery",
+          "price": "Rs. 3,499",
+          "period": "Yearly Batch",
+          "ctaLabel": "Enroll in Distinction Batch",
+          "whatsappMessage": "Namaste BPG Sir, I want to enroll in Class 12 NEB Board Mastery (Rs. 3,499).",
+          "features": [
+            "Daily Evening Live Zoom Classes with BPG Sir (6:30 PM)",
+            "22-Marks Calculus Intensive Derivation Workshop",
+            "Complete Handwritten Notes & Solved Exercise PDFs",
+            "Weekly 75-Marks Board Mock Tests"
+          ]
+        },
+        {
+          "tier": "diamond",
+          "badge": "Diamond Ranker",
+          "name": "Class 12 Board + IOE Rank Booster",
+          "price": "Rs. 4,999",
+          "period": "Yearly + Entrance Track",
+          "ctaLabel": "Join Diamond Ranker",
+          "whatsappMessage": "Namaste BPG Sir, I want to join the Class 12 Diamond Ranker Batch (Rs. 4,999).",
+          "features": [
+            "Everything in Board Distinction Included",
+            "1-on-1 Direct WhatsApp Doubt Mentorship with BPG Sir",
+            "Parallel IOE Pulchowk & CEE 10-Second Speed Shortcuts",
+            "Diamond Exclusive 15-Year Solved Board & IOE Archive"
+          ]
+        }
+      ],
+      "thumbUrl": "images/thumb_c12.jpg",
+      "notesPdfs": [
+        {
+          "id": "n12-1",
+          "title": "Class 12 Master Integration & Differential Equations Handbook",
+          "unit": "Unit 06: Calculus",
+          "fileSize": "3.1 MB",
+          "pages": "58 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n12-2",
+          "title": "Conic Sections (Parabola, Ellipse, Hyperbola) Formula Matrix",
+          "unit": "Unit 05: Conics",
+          "fileSize": "1.8 MB",
+          "pages": "34 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n12-3",
+          "title": "BPG Sir Handwritten Notes: Permutations, Binomial & Complex",
+          "unit": "Units 01 – 03",
+          "fileSize": "4.6 MB",
+          "pages": "76 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "n12-4",
+          "title": "3D Coordinates, Planes & Vector Cross Products Complete Guide",
+          "unit": "Unit 07: 3D & Vectors",
+          "fileSize": "2.9 MB",
+          "pages": "44 Pages",
+          "type": "Diamond Ranker",
+          "badgeClass": "diamond",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "description": "Complete Grade XII mathematics preparation through conceptual explanations, worked examples, examination strategies and structured practice.",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "blueprint": [
+        {
+          "code": "Unit 01",
+          "name": "Algebra (Permutations, Combinations, Binomial & Matrices)",
+          "hours": "28 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Trigonometry (Inverse Circular & Triangle Properties)",
+          "hours": "14 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Analytic Geometry (Conic Sections: Parabola, Ellipse & Hyperbola)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Vectors & 3D Geometry (Plane in Space & Vector Cross Product)",
+          "hours": "20 hrs",
+          "marks": "14 Marks",
+          "focus": "1 Long (5M) + 3 Short (6M) + 3 MCQ (3M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Calculus (Derivatives, Definite Integrals & Diff. Equations)",
+          "hours": "45 hrs",
+          "marks": "20 Marks",
+          "focus": "2 Long (10M) + 4 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Computational Methods (Simplex, Numerical & Statistics)",
+          "hours": "22 hrs",
+          "marks": "10 Marks",
+          "focus": "2 Short (8M) + 2 MCQ (2M)"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus & First-Principle Integration",
+          "marks": "20 Marks",
+          "topics": [
+            {
+              "id": "c12-u1-t1",
+              "title": "1.1 Fundamental Theorem of Calculus & Standard Antiderivatives",
+              "readTime": "15 min read",
+              "badge": "20 Marks Total",
+              "overview": "Integration is the analytical inverse of differentiation. For any continuous real function $f(x)$ over an interval $[a, b]$, the definite integral represents the signed area under the curve, defined rigorously by Riemann sums and the Fundamental Theorem of Calculus.",
+              "definitions": "$$\\int f(x)\\,dx = F(x) + C \\quad \\text{where } F'(x) = f(x)$$\n$$\\int_{a}^{b} f(x)\\,dx = F(b) - F(a) = \\lim_{n \\to \\infty} \\sum_{i=1}^n f(x_i^*)\\,\\Delta x$$",
+              "derivation": "By the Fundamental Theorem of Calculus: Let $A(x) = \\int_a^x f(t)\\,dt$. The derivative is given by the definition:\n$$A'(x) = \\lim_{h \\to 0} \\frac{A(x+h) - A(x)}{h} = \\lim_{h \\to 0} \\frac{1}{h}\\int_x^{x+h} f(t)\\,dt = f(x).$$\nHence every continuous function possesses an antiderivative $F(x)$, and any two antiderivatives differ only by an arbitrary constant $C$.",
+              "example": "NEB 5-Mark Problem: Evaluate $\\int \\frac{dx}{x^2 - a^2}$.\nSolution: Decomposing into partial fractions:\n$$\\frac{1}{x^2 - a^2} = \\frac{1}{2a}\\left(\\frac{1}{x - a} - \\frac{1}{x + a}\\right)$$\nIntegrating term-by-term yields:\n$$\\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C.$$",
+              "pitfalls": "Omitting the arbitrary constant $+ C$ in indefinite integration forfeits the step mark automatically in NEB board evaluation! Always verify whether boundary conditions exist before removing $C$."
+            }
+          ]
+        },
+        {
+          "code": "UNIT 02",
+          "title": "Conic Sections & Analytical Eccentricity",
+          "marks": "8 Marks",
+          "topics": [
+            {
+              "id": "c12-u2-t1",
+              "title": "2.1 Parabola, Ellipse & Hyperbola Standard Locus Proofs",
+              "readTime": "14 min read",
+              "badge": "8 Marks Unit",
+              "overview": "A conic section is the locus of a point $P(x, y)$ whose distance from a fixed focus $S$ is in constant ratio $e$ (eccentricity) to its perpendicular distance from a directrix line: $SP = e \\cdot PM$.",
+              "definitions": "$$\\text{Ellipse } (e < 1): \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(1 - e^2)$$\n$$\\text{Hyperbola } (e > 1): \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(e^2 - 1)$$",
+              "derivation": "Using focus $S(ae, 0)$ and directrix $x = a/e$, locus $SP^2 = e^2 PM^2$ gives $(x - ae)^2 + y^2 = e^2(x - a/e)^2 = (ex - a)^2$. Expanding and collecting terms gives $x^2(1 - e^2) + y^2 = a^2(1 - e^2)$, dividing through yields $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.",
+              "example": "Find the eccentricity, foci and latus rectum of $9x^2 + 16y^2 = 144$.",
+              "pitfalls": "Always check whether $a^2 > b^2$ (major axis along x-axis) or $b^2 > a^2$ (major axis along y-axis) before writing foci coordinates!"
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-c12-sun",
+          "portal": "class-12",
+          "title": "Sunday Concept Diagnostic & Live Q&A",
+          "type": "batch",
+          "recurrenceLabel": "Every Sunday",
+          "timings": "06:30 AM – 07:45 AM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Calculus first principles, integration without step loss, and live doubt resolution with BPG Sir."
+        },
+        {
+          "id": "cal-c12-sat",
+          "portal": "class-12",
+          "title": "Grade XII Calculus Distinction & Problem Bank Walkthrough",
+          "type": "batch",
+          "recurrenceLabel": "Every Saturday",
+          "timings": "7:00 PM – 8:30 PM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Differential equations, standard integrals, 3D vector planes, and NEB model exam analysis."
+        }
+      ],
+      "metaLive": "Saturday Live Batch"
+    },
+    "after-12": {
+      "bannerTitle": "After 12 (IOE Pulchowk / CEE / KU) Entrance Hub",
+      "bannerSub": "Instructed by Bishnu Prasad Gautam (BPG Sir) • 50-Marks IOE Mathematics Speed Blueprint & 15-Year Archive",
+      "curriculumHeader": "IOE Pulchowk CBT Blueprint (50 Marks)",
+      "gradeTitle": "After 12 Entrance (IOE / CEE / KU)",
+      "live": {
+        "batchLabel": "AFTER 12 IOE PULCHOWK & CEE RANKER BATCH",
+        "roomTitle": "After 12 Engineering & Applied Mathematics Speed Room",
+        "desc": "10-second MCQ elimination strategies, L’Hôpital & Taylor expansion speed calculus, Casio FX-991ES/CW hacks, and 15-year Pulchowk archive drills with BPG Sir.",
+        "meetingId": "984 1023 8899",
+        "passcode": "BPGIOE26",
+        "timings": "7:45 PM – 9:15 PM NPT (Sun – Fri)",
+        "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGIOE26",
+        "routine": [
+          {
+            "day": "Sun – Tue",
+            "topic": "Calculus & Differential Equations 10-Sec MCQ Shortcuts (16 Marks)"
+          },
+          {
+            "day": "Wed – Thu",
+            "topic": "Algebra, Complex Cube Roots & Coordinate Conic Locus Tricks (22 Marks)"
+          },
+          {
+            "day": "Friday",
+            "topic": "Trigonometry, 3D Skew Lines & Vector Cross Product Hacks (12 Marks)"
+          },
+          {
+            "day": "Saturday",
+            "topic": "100-Marks Full Timed IOE Pulchowk Computer-Based Mock Test"
+          }
+        ]
+      },
+      "syllabusRows": [
+        {
+          "code": "IOE-01",
+          "name": "Calculus (Limits, Derivatives, Definite Integrals & Area)",
+          "hours": "36 hrs",
+          "marks": "16 Marks",
+          "focus": "10×1M + 3×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-02",
+          "name": "Coordinate Geometry (Lines, Circle, Conics & 3D Planes)",
+          "hours": "28 hrs",
+          "marks": "10 Marks",
+          "focus": "6×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-03",
+          "name": "Algebra & Matrices (Complex, Quadratic, Binomial & Series)",
+          "hours": "28 hrs",
+          "marks": "12 Marks",
+          "focus": "8×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-04",
+          "name": "Trigonometry (Inverse Circular & Conditional Identities)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-05",
+          "name": "Vectors & 3D (Dot/Cross Product & Skew Lines)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus Speed Hacks & Pulchowk Past MCQs",
+          "marks": "16 Marks",
+          "topics": [
+            {
+              "id": "ent-u1-t1",
+              "title": "1.1 10-Second Limit & Definite Integral Shortcuts",
+              "readTime": "14 min read",
+              "badge": "IOE Staple",
+              "overview": "In IOE CBT exams, combining Maclaurin 3-term series approximations with King's definite integral symmetry evaluates integrals and limits in under 10 seconds.",
+              "definitions": "$$\\int_a^b \\frac{f(x)}{f(x) + f(a+b-x)}\\,dx = \\frac{b - a}{2}$$\n$$\\text{Area between } y^2 = 4ax \\text{ and } y = mx: \\quad A = \\frac{8a^2}{3m^3}$$",
+              "derivation": "Let $I = \\int_a^b \\frac{f(x)}{f(x)+f(a+b-x)}dx$. Applying property $x \\to a+b-x$ gives $I = \\int_a^b \\frac{f(a+b-x)}{f(a+b-x)+f(x)}dx$. Adding both equations gives $2I = \\int_a^b 1\\,dx = b - a \\implies I = \\frac{b-a}{2}$.",
+              "example": "Evaluate $\\int_{\\pi/6}^{\\pi/3} \\frac{dx}{1 + \\sqrt{\\tan x}}$ in 5 seconds. Answer: $(\\pi/3 - \\pi/6)/2 = \\pi/12$.",
+              "pitfalls": "IOE CBT penalizes $10\\%$ ($-0.25$ marks) for incorrect options. Verify whether the function is odd on $[-a, a]$ before guessing!",
+              "minPlan": "free",
+              "adminAssignedPlan": false
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "na12-1",
+          "title": "15-Year Solved IOE Pulchowk Mathematics Archive (2065 – 2082)",
+          "unit": "All 5 Entrance Domains",
+          "fileSize": "5.4 MB",
+          "pages": "112 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "na12-2",
+          "title": "BPG Sir 10-Second MCQ Elimination & Casio FX-991 Speed Manual",
+          "unit": "Speed Hacks & Tricks",
+          "fileSize": "2.8 MB",
+          "pages": "48 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "na12-3",
+          "title": "1,000 High-Yield IOE / KU / CEE Calculus & Conics Question Bank",
+          "unit": "Units 01 – 03",
+          "fileSize": "4.9 MB",
+          "pages": "94 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "na12-4",
+          "title": "20 Full-Length Timed IOE Pulchowk CBT Mock Sets with Solutions",
+          "unit": "Full 50-Marks Syllabus",
+          "fileSize": "6.2 MB",
+          "pages": "128 Pages",
+          "type": "Diamond Ranker",
+          "badgeClass": "diamond",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "plans": [
+        {
+          "tier": "free",
+          "badge": "Free Community",
+          "name": "IOE / CEE Self-Study Vault",
+          "price": "Rs. 0",
+          "period": "Lifetime Free",
+          "ctaLabel": "Continue with Free Vault",
+          "whatsappMessage": "Namaste BPG Sir, I am using the After 12 IOE Self-Study Vault.",
+          "features": [
+            "Complete 50-Marks IOE Pulchowk Weightage Blueprint",
+            "Access to All 10-Second Speed Hacks & Theory Chapters",
+            "Free 15-Year Pulchowk Formula & Casio Trick Sheet",
+            "Open Saturday Live Mock Test Discussions"
+          ]
+        },
+        {
+          "tier": "gold",
+          "badge": "IOE Regular Batch",
+          "name": "IOE Pulchowk & KU Entrance Mastery",
+          "price": "Rs. 4,499",
+          "period": "Full Entrance Season",
+          "ctaLabel": "Enroll in IOE Regular Batch",
+          "whatsappMessage": "Namaste BPG Sir, I want to enroll in the IOE Pulchowk Regular Batch (Rs. 4,499).",
+          "features": [
+            "Daily Night Live Zoom Classes with BPG Sir (7:45 PM)",
+            "1,000+ Solved MCQ Question Bank & Chapter Handouts",
+            "Casio FX-991ES/CW Speed Calculation Workshops",
+            "Weekly 100-Marks Computer-Based Mock Tests"
+          ]
+        },
+        {
+          "tier": "diamond",
+          "badge": "Top-50 Ranker Diamond",
+          "name": "Pulchowk Top-50 Scholarship Ranker Batch",
+          "price": "Rs. 6,499",
+          "period": "Complete Scholarship Track",
+          "ctaLabel": "Join Top-50 Diamond Batch",
+          "whatsappMessage": "Namaste BPG Sir, I want to join the Pulchowk Top-50 Diamond Ranker Batch (Rs. 6,499).",
+          "features": [
+            "Everything in IOE Regular Batch Included",
+            "Direct 1-on-1 WhatsApp Doubt Mentorship with BPG Sir",
+            "20 Full-Length Timed Pulchowk CBT Mock Exams",
+            "Complete 15-Year Solved IOE, KU & Indian Embassy Archive"
+          ]
+        }
+      ],
+      "thumbUrl": "images/thumb_entrance.jpg",
+      "notesPdfs": [
+        {
+          "id": "na12-1",
+          "title": "15-Year Solved IOE Pulchowk Mathematics Archive (2065 – 2082)",
+          "unit": "All 5 Entrance Domains",
+          "fileSize": "5.4 MB",
+          "pages": "112 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "free",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "na12-2",
+          "title": "BPG Sir 10-Second MCQ Elimination & Casio FX-991 Speed Manual",
+          "unit": "Speed Hacks & Tricks",
+          "fileSize": "2.8 MB",
+          "pages": "48 Pages",
+          "type": "Free Community",
+          "badgeClass": "free",
+          "fileUrl": "",
+          "minPlan": "gold",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "na12-3",
+          "title": "1,000 High-Yield IOE / KU / CEE Calculus & Conics Question Bank",
+          "unit": "Units 01 – 03",
+          "fileSize": "4.9 MB",
+          "pages": "94 Pages",
+          "type": "Board Distinction",
+          "badgeClass": "distinction",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        },
+        {
+          "id": "na12-4",
+          "title": "20 Full-Length Timed IOE Pulchowk CBT Mock Sets with Solutions",
+          "unit": "Full 50-Marks Syllabus",
+          "fileSize": "6.2 MB",
+          "pages": "128 Pages",
+          "type": "Diamond Ranker",
+          "badgeClass": "diamond",
+          "fileUrl": "",
+          "minPlan": "diamond",
+          "adminAssignedPlan": false
+        }
+      ],
+      "description": "Prepare for IOE, CEE and KU entrance examinations through past questions, calculation techniques, time management and examination strategies.",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "blueprint": [
+        {
+          "code": "IOE-01",
+          "name": "Calculus (Limits, Derivatives, Definite Integrals & Area)",
+          "hours": "36 hrs",
+          "marks": "16 Marks",
+          "focus": "10×1M + 3×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-02",
+          "name": "Coordinate Geometry (Lines, Circle, Conics & 3D Planes)",
+          "hours": "28 hrs",
+          "marks": "10 Marks",
+          "focus": "6×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-03",
+          "name": "Algebra & Matrices (Complex, Quadratic, Binomial & Series)",
+          "hours": "28 hrs",
+          "marks": "12 Marks",
+          "focus": "8×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-04",
+          "name": "Trigonometry (Inverse Circular & Conditional Identities)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-05",
+          "name": "Vectors & 3D (Dot/Cross Product & Skew Lines)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus Speed Hacks & Pulchowk Past MCQs",
+          "marks": "16 Marks",
+          "topics": [
+            {
+              "id": "ent-u1-t1",
+              "title": "1.1 10-Second Limit & Definite Integral Shortcuts",
+              "readTime": "14 min read",
+              "badge": "IOE Staple",
+              "overview": "In IOE CBT exams, combining Maclaurin 3-term series approximations with King's definite integral symmetry evaluates integrals and limits in under 10 seconds.",
+              "definitions": "$$\\int_a^b \\frac{f(x)}{f(x) + f(a+b-x)}\\,dx = \\frac{b - a}{2}$$\n$$\\text{Area between } y^2 = 4ax \\text{ and } y = mx: \\quad A = \\frac{8a^2}{3m^3}$$",
+              "derivation": "Let $I = \\int_a^b \\frac{f(x)}{f(x)+f(a+b-x)}dx$. Applying property $x \\to a+b-x$ gives $I = \\int_a^b \\frac{f(a+b-x)}{f(a+b-x)+f(x)}dx$. Adding both equations gives $2I = \\int_a^b 1\\,dx = b - a \\implies I = \\frac{b-a}{2}$.",
+              "example": "Evaluate $\\int_{\\pi/6}^{\\pi/3} \\frac{dx}{1 + \\sqrt{\\tan x}}$ in 5 seconds. Answer: $(\\pi/3 - \\pi/6)/2 = \\pi/12$.",
+              "pitfalls": "IOE CBT penalizes $10\\%$ ($-0.25$ marks) for incorrect options. Verify whether the function is odd on $[-a, a]$ before guessing!"
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-ent-daily",
+          "portal": "after-12",
+          "title": "IOE Pulchowk CBT Speed Calculus & Casio FX-991 Drill",
+          "type": "batch",
+          "recurrenceLabel": "Every Morning (Sun–Fri)",
+          "timings": "7:45 AM – 9:00 AM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPGIOE26",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGIOE26",
+          "syllabus": "10-second MCQ elimination techniques, King’s property integrals, and Pulchowk past papers."
+        }
+      ],
+      "metaLive": "Daily Ranker Batch"
+    }
+  },
+  "adminPasskey": "bpg2026",
+  "adminEmail": "admin@bpgacademy.edu.np",
+  "notices": {
+    "tickerText": "Class 11 & 12 Board Distinction Batches are now active. Free Sunday Masterclass opens at 6:30 AM NPT."
+  },
+  "courses": {
+    "class-10": {
+      "curriculumHeader": "CDC SEE Specification Grid",
+      "gradeTitle": "Class 10 (SEE Mathematics Foundation)",
+      "description": "Strengthen mathematical fundamentals through algebra, geometry, trigonometry, coordinate geometry and examination-focused practice.",
+      "thumbUrl": "images/thumb_c10.jpg",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "metaLive": "Sunday Open Clinic",
+      "syllabusRows": [
+        {
+          "code": "Unit 01",
+          "name": "Sets, Venn Diagrams & Cardinality Applications",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Full Set Problem (4M + 2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Arithmetic (Compound Interest & Money Exchange)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "3 Structured Problems"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Mensuration (Prisms, Pyramids, Cones & Solids)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "2 Structured + 1 High-Order Rider"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Algebra (Indices, Expressions & Quadratics)",
+          "hours": "30 hrs",
+          "marks": "15 Marks",
+          "focus": "Simplification + Word Problem"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Geometry (Circle Theorems & Unseen Riders)",
+          "hours": "28 hrs",
+          "marks": "13 Marks",
+          "focus": "Theoretical Proof + Unseen Rider"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Trigonometry & Statistics (Heights & Distances, Quartiles)",
+          "hours": "26 hrs",
+          "marks": "15 Marks",
+          "focus": "Elevation/Depression + Median/Ogive"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Circle Theorems & Unseen Geometric Riders",
+          "marks": "13 Marks",
+          "topics": [
+            {
+              "id": "c10-u1-t1",
+              "title": "1.1 Central Angle vs Inscribed Angle Theorem",
+              "readTime": "12 min read",
+              "badge": "SEE 4-Mark Staple",
+              "overview": "The central angle subtended by an arc at the center of a circle is double the angle subtended by it at any point on the remaining circumference.",
+              "definitions": "$$\\angle AOB = 2\\angle ACB \\quad (\\text{Standing on the same arc } AB)$$\n$$\\angle ADB = \\angle ACB \\quad (\\text{Inscribed angles on the same arc})$$",
+              "derivation": "In $\\triangle OAC$, since $OA = OC = r$, $\\triangle OAC$ is isosceles, so $\\angle OCA = \\angle OAC$. By the exterior angle theorem, the exterior angle at $O$ is $2\\angle OCA$. Repeating for $\\triangle OBC$ establishes $\\angle AOB = 2\\angle ACB$.",
+              "example": "Prove that angles in the same segment of a circle are equal.",
+              "pitfalls": "In SEE 2-column proofs, always write the exact CDC theorem reason in brackets for every single statement step!"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "c10-n1",
+          "title": "Class 10 SEE Complete Circle Theorem Guide",
+          "unit": "Unit 05: Geometry",
+          "pages": "26 Pages",
+          "fileSize": "2.9 MB",
+          "fileUrl": ""
+        },
+        {
+          "id": "c10-n2",
+          "title": "SEE Compulsory & Optional Math Model Sets",
+          "unit": "Full Model Sets",
+          "pages": "48 Pages",
+          "fileSize": "3.8 MB",
+          "fileUrl": ""
+        }
+      ],
+      "blueprint": [
+        {
+          "code": "Unit 01",
+          "name": "Sets, Venn Diagrams & Cardinality Applications",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Full Set Problem (4M + 2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Arithmetic (Compound Interest & Money Exchange)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "3 Structured Problems"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Mensuration (Prisms, Pyramids, Cones & Solids)",
+          "hours": "24 hrs",
+          "marks": "13 Marks",
+          "focus": "2 Structured + 1 High-Order Rider"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Algebra (Indices, Expressions & Quadratics)",
+          "hours": "30 hrs",
+          "marks": "15 Marks",
+          "focus": "Simplification + Word Problem"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Geometry (Circle Theorems & Unseen Riders)",
+          "hours": "28 hrs",
+          "marks": "13 Marks",
+          "focus": "Theoretical Proof + Unseen Rider"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Trigonometry & Statistics (Heights & Distances, Quartiles)",
+          "hours": "26 hrs",
+          "marks": "15 Marks",
+          "focus": "Elevation/Depression + Median/Ogive"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Circle Theorems & Unseen Geometric Riders",
+          "marks": "13 Marks",
+          "topics": [
+            {
+              "id": "c10-u1-t1",
+              "title": "1.1 Central Angle vs Inscribed Angle Theorem",
+              "readTime": "12 min read",
+              "badge": "SEE 4-Mark Staple",
+              "overview": "The central angle subtended by an arc at the center of a circle is double the angle subtended by it at any point on the remaining circumference.",
+              "definitions": "$$\\angle AOB = 2\\angle ACB \\quad (\\text{Standing on the same arc } AB)$$\n$$\\angle ADB = \\angle ACB \\quad (\\text{Inscribed angles on the same arc})$$",
+              "derivation": "In $\\triangle OAC$, since $OA = OC = r$, $\\triangle OAC$ is isosceles, so $\\angle OCA = \\angle OAC$. By the exterior angle theorem, the exterior angle at $O$ is $2\\angle OCA$. Repeating for $\\triangle OBC$ establishes $\\angle AOB = 2\\angle ACB$.",
+              "example": "Prove that angles in the same segment of a circle are equal.",
+              "pitfalls": "In SEE 2-column proofs, always write the exact CDC theorem reason in brackets for every single statement step!"
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-c10-sat",
+          "portal": "class-10",
+          "title": "SEE Circle Theorems & Unseen Riders Clinic",
+          "type": "batch",
+          "recurrenceLabel": "Every Saturday",
+          "timings": "4:00 PM – 5:15 PM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Geometric circle theorem proofs, 3-set Venn diagrams, and optional math trigonometry."
+        }
+      ]
+    },
+    "class-11": {
+      "curriculumHeader": "NEB Official Specification Grid",
+      "gradeTitle": "Grade XI Mathematics (Mat. 101)",
+      "description": "Build strong mathematical foundations through clear explanations, logical problem-solving and systematic examination preparation.",
+      "thumbUrl": "images/thumb_c11.jpg",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "metaLive": "Weekly Zoom Batch",
+      "syllabusRows": [
+        {
+          "code": "Unit 01",
+          "name": "Logic, Set Theory & Real Number System",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Short (4M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Algebra & Matrices (Quadratics, Complex Numbers, Determinants)",
+          "hours": "32 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Trigonometry (General Solutions & Inverse Functions)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Analytic Geometry (Pair of Straight Lines & Circle)",
+          "hours": "20 hrs",
+          "marks": "10 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Vectors (Scalar Product & Vector Algebra)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Short (4M) + 1 Short (2M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Calculus (Limits, Continuity, First Principles & Integrals)",
+          "hours": "38 hrs",
+          "marks": "17 Marks",
+          "focus": "2 Long (10M) + 2 Short (5M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 07",
+          "name": "Probability & Statistics (Skewness & Dispersion)",
+          "hours": "26 hrs",
+          "marks": "11 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 2 MCQ (2M)"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Limits, Continuity & First-Principle Derivatives",
+          "marks": "17 Marks",
+          "topics": [
+            {
+              "id": "c11-u1-t1",
+              "title": "1.1 Fundamental Trigonometric Limits & First Principles",
+              "readTime": "14 min read",
+              "badge": "17 Marks Core",
+              "overview": "The derivative of a function $f(x)$ represents its instantaneous rate of change and is formally defined through the fundamental limit of a difference quotient as $h \\to 0$.",
+              "definitions": "$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$\n$$\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1 \\quad (\\theta \\text{ in radians})$$",
+              "derivation": "To prove $\\frac{d}{dx}(\\sin x) = \\cos x$ by First Principles:\n$$f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin x}{h} = \\lim_{h \\to 0} \\frac{2\\cos\\left(x + \\frac{h}{2}\\right)\\sin\\left(\\frac{h}{2}\\right)}{h} = \\lim_{h \\to 0} \\cos\\left(x + \\frac{h}{2}\\right) \\cdot \\lim_{h \\to 0} \\frac{\\sin(h/2)}{h/2} = \\cos x \\cdot 1 = \\cos x.$$",
+              "example": "Find the derivative of $f(x) = \\sqrt{x}$ from first principles.",
+              "pitfalls": "When evaluating trigonometric limits from first principles, always verify that the argument inside $\\sin$ matches the denominator before applying the standard limit value $1$."
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "c11-n1",
+          "title": "Grade XI NEB Core Formula Cheat Sheet",
+          "unit": "Full Curriculum",
+          "pages": "32 Pages",
+          "fileSize": "2.5 MB",
+          "fileUrl": ""
+        },
+        {
+          "id": "c11-n2",
+          "title": "Class 11 Limits & First Principles Master Bank",
+          "unit": "Unit 06: Calculus",
+          "pages": "44 Pages",
+          "fileSize": "3.6 MB",
+          "fileUrl": ""
+        }
+      ],
+      "blueprint": [
+        {
+          "code": "Unit 01",
+          "name": "Logic, Set Theory & Real Number System",
+          "hours": "12 hrs",
+          "marks": "6 Marks",
+          "focus": "1 Short (4M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Algebra & Matrices (Quadratics, Complex Numbers, Determinants)",
+          "hours": "32 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Trigonometry (General Solutions & Inverse Functions)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Analytic Geometry (Pair of Straight Lines & Circle)",
+          "hours": "20 hrs",
+          "marks": "10 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Vectors (Scalar Product & Vector Algebra)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Short (4M) + 1 Short (2M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Calculus (Limits, Continuity, First Principles & Integrals)",
+          "hours": "38 hrs",
+          "marks": "17 Marks",
+          "focus": "2 Long (10M) + 2 Short (5M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 07",
+          "name": "Probability & Statistics (Skewness & Dispersion)",
+          "hours": "26 hrs",
+          "marks": "11 Marks",
+          "focus": "1 Long (5M) + 1 Short (4M) + 2 MCQ (2M)"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Limits, Continuity & First-Principle Derivatives",
+          "marks": "17 Marks",
+          "topics": [
+            {
+              "id": "c11-u1-t1",
+              "title": "1.1 Fundamental Trigonometric Limits & First Principles",
+              "readTime": "14 min read",
+              "badge": "17 Marks Core",
+              "overview": "The derivative of a function $f(x)$ represents its instantaneous rate of change and is formally defined through the fundamental limit of a difference quotient as $h \\to 0$.",
+              "definitions": "$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$\n$$\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1 \\quad (\\theta \\text{ in radians})$$",
+              "derivation": "To prove $\\frac{d}{dx}(\\sin x) = \\cos x$ by First Principles:\n$$f'(x) = \\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin x}{h} = \\lim_{h \\to 0} \\frac{2\\cos\\left(x + \\frac{h}{2}\\right)\\sin\\left(\\frac{h}{2}\\right)}{h} = \\lim_{h \\to 0} \\cos\\left(x + \\frac{h}{2}\\right) \\cdot \\lim_{h \\to 0} \\frac{\\sin(h/2)}{h/2} = \\cos x \\cdot 1 = \\cos x.$$",
+              "example": "Find the derivative of $f(x) = \\sqrt{x}$ from first principles.",
+              "pitfalls": "When evaluating trigonometric limits from first principles, always verify that the argument inside $\\sin$ matches the denominator before applying the standard limit value $1$."
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-c11-sun",
+          "portal": "class-11",
+          "title": "Grade XI Foundation & Mathematical Logic Workshop",
+          "type": "batch",
+          "recurrenceLabel": "Every Sunday",
+          "timings": "6:30 AM – 7:45 AM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Limits, continuity, first-principle derivatives, and analytical circles."
+        }
+      ]
+    },
+    "class-12": {
+      "curriculumHeader": "NEB Official Specification Grid",
+      "gradeTitle": "Grade XII Mathematics (Mat. 102)",
+      "description": "Complete Grade XII mathematics preparation through conceptual explanations, worked examples, examination strategies and structured practice.",
+      "thumbUrl": "images/thumb_c12.jpg",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "metaLive": "Saturday Live Batch",
+      "syllabusRows": [
+        {
+          "code": "Unit 01",
+          "name": "Algebra (Permutations, Combinations, Binomial & Matrices)",
+          "hours": "28 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Trigonometry (Inverse Circular & Triangle Properties)",
+          "hours": "14 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Analytic Geometry (Conic Sections: Parabola, Ellipse & Hyperbola)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Vectors & 3D Geometry (Plane in Space & Vector Cross Product)",
+          "hours": "20 hrs",
+          "marks": "14 Marks",
+          "focus": "1 Long (5M) + 3 Short (6M) + 3 MCQ (3M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Calculus (Derivatives, Definite Integrals & Diff. Equations)",
+          "hours": "45 hrs",
+          "marks": "20 Marks",
+          "focus": "2 Long (10M) + 4 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Computational Methods (Simplex, Numerical & Statistics)",
+          "hours": "22 hrs",
+          "marks": "10 Marks",
+          "focus": "2 Short (8M) + 2 MCQ (2M)"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus & First-Principle Integration",
+          "marks": "20 Marks",
+          "topics": [
+            {
+              "id": "c12-u1-t1",
+              "title": "1.1 Fundamental Theorem of Calculus & Standard Antiderivatives",
+              "readTime": "15 min read",
+              "badge": "20 Marks Total",
+              "overview": "Integration is the analytical inverse of differentiation. For any continuous real function $f(x)$ over an interval $[a, b]$, the definite integral represents the signed area under the curve, defined rigorously by Riemann sums and the Fundamental Theorem of Calculus.",
+              "definitions": "$$\\int f(x)\\,dx = F(x) + C \\quad \\text{where } F'(x) = f(x)$$\n$$\\int_{a}^{b} f(x)\\,dx = F(b) - F(a) = \\lim_{n \\to \\infty} \\sum_{i=1}^n f(x_i^*)\\,\\Delta x$$",
+              "derivation": "By the Fundamental Theorem of Calculus: Let $A(x) = \\int_a^x f(t)\\,dt$. The derivative is given by the definition:\n$$A'(x) = \\lim_{h \\to 0} \\frac{A(x+h) - A(x)}{h} = \\lim_{h \\to 0} \\frac{1}{h}\\int_x^{x+h} f(t)\\,dt = f(x).$$\nHence every continuous function possesses an antiderivative $F(x)$, and any two antiderivatives differ only by an arbitrary constant $C$.",
+              "example": "NEB 5-Mark Problem: Evaluate $\\int \\frac{dx}{x^2 - a^2}$.\nSolution: Decomposing into partial fractions:\n$$\\frac{1}{x^2 - a^2} = \\frac{1}{2a}\\left(\\frac{1}{x - a} - \\frac{1}{x + a}\\right)$$\nIntegrating term-by-term yields:\n$$\\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C.$$",
+              "pitfalls": "Omitting the arbitrary constant $+ C$ in indefinite integration forfeits the step mark automatically in NEB board evaluation! Always verify whether boundary conditions exist before removing $C$."
+            }
+          ]
+        },
+        {
+          "code": "UNIT 02",
+          "title": "Conic Sections & Analytical Eccentricity",
+          "marks": "8 Marks",
+          "topics": [
+            {
+              "id": "c12-u2-t1",
+              "title": "2.1 Parabola, Ellipse & Hyperbola Standard Locus Proofs",
+              "readTime": "14 min read",
+              "badge": "8 Marks Unit",
+              "overview": "A conic section is the locus of a point $P(x, y)$ whose distance from a fixed focus $S$ is in constant ratio $e$ (eccentricity) to its perpendicular distance from a directrix line: $SP = e \\cdot PM$.",
+              "definitions": "$$\\text{Ellipse } (e < 1): \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(1 - e^2)$$\n$$\\text{Hyperbola } (e > 1): \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(e^2 - 1)$$",
+              "derivation": "Using focus $S(ae, 0)$ and directrix $x = a/e$, locus $SP^2 = e^2 PM^2$ gives $(x - ae)^2 + y^2 = e^2(x - a/e)^2 = (ex - a)^2$. Expanding and collecting terms gives $x^2(1 - e^2) + y^2 = a^2(1 - e^2)$, dividing through yields $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.",
+              "example": "Find the eccentricity, foci and latus rectum of $9x^2 + 16y^2 = 144$.",
+              "pitfalls": "Always check whether $a^2 > b^2$ (major axis along x-axis) or $b^2 > a^2$ (major axis along y-axis) before writing foci coordinates!"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "c12-n1",
+          "title": "Class 12 Formula Cheat Sheet (PDF)",
+          "unit": "All Core Units",
+          "pages": "34 Pages",
+          "fileSize": "2.8 MB",
+          "fileUrl": ""
+        },
+        {
+          "id": "c12-n2",
+          "title": "Calculus Distinction Board Model Solutions",
+          "unit": "Unit 05: Calculus",
+          "pages": "56 Pages",
+          "fileSize": "4.5 MB",
+          "fileUrl": ""
+        },
+        {
+          "id": "c12-n3",
+          "title": "Conic Sections & 3D Vectors Summary Matrix",
+          "unit": "Units 03 & 04",
+          "pages": "28 Pages",
+          "fileSize": "2.1 MB",
+          "fileUrl": ""
+        },
+        {
+          "id": "c12-n4",
+          "title": "15-Year IOE Past Paper Solution Bank",
+          "unit": "Entrance Practice",
+          "pages": "112 Pages",
+          "fileSize": "6.4 MB",
+          "fileUrl": ""
+        }
+      ],
+      "blueprint": [
+        {
+          "code": "Unit 01",
+          "name": "Algebra (Permutations, Combinations, Binomial & Matrices)",
+          "hours": "28 hrs",
+          "marks": "15 Marks",
+          "focus": "1 Long (5M) + 2 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 02",
+          "name": "Trigonometry (Inverse Circular & Triangle Properties)",
+          "hours": "14 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 03",
+          "name": "Analytic Geometry (Conic Sections: Parabola, Ellipse & Hyperbola)",
+          "hours": "16 hrs",
+          "marks": "8 Marks",
+          "focus": "1 Long (5M) + 1 Short (2M) + 1 MCQ (1M)"
+        },
+        {
+          "code": "Unit 04",
+          "name": "Vectors & 3D Geometry (Plane in Space & Vector Cross Product)",
+          "hours": "20 hrs",
+          "marks": "14 Marks",
+          "focus": "1 Long (5M) + 3 Short (6M) + 3 MCQ (3M)"
+        },
+        {
+          "code": "Unit 05",
+          "name": "Calculus (Derivatives, Definite Integrals & Diff. Equations)",
+          "hours": "45 hrs",
+          "marks": "20 Marks",
+          "focus": "2 Long (10M) + 4 Short (8M) + 2 MCQ (2M)"
+        },
+        {
+          "code": "Unit 06",
+          "name": "Computational Methods (Simplex, Numerical & Statistics)",
+          "hours": "22 hrs",
+          "marks": "10 Marks",
+          "focus": "2 Short (8M) + 2 MCQ (2M)"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus & First-Principle Integration",
+          "marks": "20 Marks",
+          "topics": [
+            {
+              "id": "c12-u1-t1",
+              "title": "1.1 Fundamental Theorem of Calculus & Standard Antiderivatives",
+              "readTime": "15 min read",
+              "badge": "20 Marks Total",
+              "overview": "Integration is the analytical inverse of differentiation. For any continuous real function $f(x)$ over an interval $[a, b]$, the definite integral represents the signed area under the curve, defined rigorously by Riemann sums and the Fundamental Theorem of Calculus.",
+              "definitions": "$$\\int f(x)\\,dx = F(x) + C \\quad \\text{where } F'(x) = f(x)$$\n$$\\int_{a}^{b} f(x)\\,dx = F(b) - F(a) = \\lim_{n \\to \\infty} \\sum_{i=1}^n f(x_i^*)\\,\\Delta x$$",
+              "derivation": "By the Fundamental Theorem of Calculus: Let $A(x) = \\int_a^x f(t)\\,dt$. The derivative is given by the definition:\n$$A'(x) = \\lim_{h \\to 0} \\frac{A(x+h) - A(x)}{h} = \\lim_{h \\to 0} \\frac{1}{h}\\int_x^{x+h} f(t)\\,dt = f(x).$$\nHence every continuous function possesses an antiderivative $F(x)$, and any two antiderivatives differ only by an arbitrary constant $C$.",
+              "example": "NEB 5-Mark Problem: Evaluate $\\int \\frac{dx}{x^2 - a^2}$.\nSolution: Decomposing into partial fractions:\n$$\\frac{1}{x^2 - a^2} = \\frac{1}{2a}\\left(\\frac{1}{x - a} - \\frac{1}{x + a}\\right)$$\nIntegrating term-by-term yields:\n$$\\int \\frac{dx}{x^2 - a^2} = \\frac{1}{2a}\\ln\\left|\\frac{x - a}{x + a}\\right| + C.$$",
+              "pitfalls": "Omitting the arbitrary constant $+ C$ in indefinite integration forfeits the step mark automatically in NEB board evaluation! Always verify whether boundary conditions exist before removing $C$."
+            }
+          ]
+        },
+        {
+          "code": "UNIT 02",
+          "title": "Conic Sections & Analytical Eccentricity",
+          "marks": "8 Marks",
+          "topics": [
+            {
+              "id": "c12-u2-t1",
+              "title": "2.1 Parabola, Ellipse & Hyperbola Standard Locus Proofs",
+              "readTime": "14 min read",
+              "badge": "8 Marks Unit",
+              "overview": "A conic section is the locus of a point $P(x, y)$ whose distance from a fixed focus $S$ is in constant ratio $e$ (eccentricity) to its perpendicular distance from a directrix line: $SP = e \\cdot PM$.",
+              "definitions": "$$\\text{Ellipse } (e < 1): \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(1 - e^2)$$\n$$\\text{Hyperbola } (e > 1): \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1, \\quad b^2 = a^2(e^2 - 1)$$",
+              "derivation": "Using focus $S(ae, 0)$ and directrix $x = a/e$, locus $SP^2 = e^2 PM^2$ gives $(x - ae)^2 + y^2 = e^2(x - a/e)^2 = (ex - a)^2$. Expanding and collecting terms gives $x^2(1 - e^2) + y^2 = a^2(1 - e^2)$, dividing through yields $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.",
+              "example": "Find the eccentricity, foci and latus rectum of $9x^2 + 16y^2 = 144$.",
+              "pitfalls": "Always check whether $a^2 > b^2$ (major axis along x-axis) or $b^2 > a^2$ (major axis along y-axis) before writing foci coordinates!"
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-c12-sun",
+          "portal": "class-12",
+          "title": "Sunday Concept Diagnostic & Live Q&A",
+          "type": "batch",
+          "recurrenceLabel": "Every Sunday",
+          "timings": "06:30 AM – 07:45 AM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Calculus first principles, integration without step loss, and live doubt resolution with BPG Sir."
+        },
+        {
+          "id": "cal-c12-sat",
+          "portal": "class-12",
+          "title": "Grade XII Calculus Distinction & Problem Bank Walkthrough",
+          "type": "batch",
+          "recurrenceLabel": "Every Saturday",
+          "timings": "7:00 PM – 8:30 PM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPG2026",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPG2026",
+          "syllabus": "Differential equations, standard integrals, 3D vector planes, and NEB model exam analysis."
+        }
+      ]
+    },
+    "after-12": {
+      "curriculumHeader": "IOE Pulchowk CBT Blueprint (50 Marks)",
+      "gradeTitle": "After 12 Entrance (IOE / CEE / KU)",
+      "description": "Prepare for IOE, CEE and KU entrance examinations through past questions, calculation techniques, time management and examination strategies.",
+      "thumbUrl": "images/thumb_entrance.jpg",
+      "metaLessons": "2 lessons",
+      "metaNotes": "6 notes",
+      "metaLive": "Daily Ranker Batch",
+      "syllabusRows": [
+        {
+          "code": "IOE-01",
+          "name": "Calculus (Limits, Derivatives, Definite Integrals & Area)",
+          "hours": "36 hrs",
+          "marks": "16 Marks",
+          "focus": "10×1M + 3×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-02",
+          "name": "Coordinate Geometry (Lines, Circle, Conics & 3D Planes)",
+          "hours": "28 hrs",
+          "marks": "10 Marks",
+          "focus": "6×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-03",
+          "name": "Algebra & Matrices (Complex, Quadratic, Binomial & Series)",
+          "hours": "28 hrs",
+          "marks": "12 Marks",
+          "focus": "8×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-04",
+          "name": "Trigonometry (Inverse Circular & Conditional Identities)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-05",
+          "name": "Vectors & 3D (Dot/Cross Product & Skew Lines)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        }
+      ],
+      "units": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus Speed Hacks & Pulchowk Past MCQs",
+          "marks": "16 Marks",
+          "topics": [
+            {
+              "id": "ent-u1-t1",
+              "title": "1.1 10-Second Limit & Definite Integral Shortcuts",
+              "readTime": "14 min read",
+              "badge": "IOE Staple",
+              "overview": "In IOE CBT exams, combining Maclaurin 3-term series approximations with King's definite integral symmetry evaluates integrals and limits in under 10 seconds.",
+              "definitions": "$$\\int_a^b \\frac{f(x)}{f(x) + f(a+b-x)}\\,dx = \\frac{b - a}{2}$$\n$$\\text{Area between } y^2 = 4ax \\text{ and } y = mx: \\quad A = \\frac{8a^2}{3m^3}$$",
+              "derivation": "Let $I = \\int_a^b \\frac{f(x)}{f(x)+f(a+b-x)}dx$. Applying property $x \\to a+b-x$ gives $I = \\int_a^b \\frac{f(a+b-x)}{f(a+b-x)+f(x)}dx$. Adding both equations gives $2I = \\int_a^b 1\\,dx = b - a \\implies I = \\frac{b-a}{2}$.",
+              "example": "Evaluate $\\int_{\\pi/6}^{\\pi/3} \\frac{dx}{1 + \\sqrt{\\tan x}}$ in 5 seconds. Answer: $(\\pi/3 - \\pi/6)/2 = \\pi/12$.",
+              "pitfalls": "IOE CBT penalizes $10\\%$ ($-0.25$ marks) for incorrect options. Verify whether the function is odd on $[-a, a]$ before guessing!"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "id": "ent-n1",
+          "title": "15-Year Solved IOE Pulchowk Mathematics Archive",
+          "unit": "All 5 Domains",
+          "pages": "112 Pages",
+          "fileSize": "6.4 MB",
+          "fileUrl": ""
+        },
+        {
+          "id": "ent-n2",
+          "title": "Casio FX-991ES/CW 10-Second MCQ Speed Manual",
+          "unit": "Speed Hacks",
+          "pages": "42 Pages",
+          "fileSize": "3.1 MB",
+          "fileUrl": ""
+        }
+      ],
+      "blueprint": [
+        {
+          "code": "IOE-01",
+          "name": "Calculus (Limits, Derivatives, Definite Integrals & Area)",
+          "hours": "36 hrs",
+          "marks": "16 Marks",
+          "focus": "10×1M + 3×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-02",
+          "name": "Coordinate Geometry (Lines, Circle, Conics & 3D Planes)",
+          "hours": "28 hrs",
+          "marks": "10 Marks",
+          "focus": "6×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-03",
+          "name": "Algebra & Matrices (Complex, Quadratic, Binomial & Series)",
+          "hours": "28 hrs",
+          "marks": "12 Marks",
+          "focus": "8×1M + 2×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-04",
+          "name": "Trigonometry (Inverse Circular & Conditional Identities)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        },
+        {
+          "code": "IOE-05",
+          "name": "Vectors & 3D (Dot/Cross Product & Skew Lines)",
+          "hours": "16 hrs",
+          "marks": "6 Marks",
+          "focus": "4×1M + 1×2M CBT MCQs (-0.25 Neg. Marking)"
+        }
+      ],
+      "theory": [
+        {
+          "code": "UNIT 01",
+          "title": "Calculus Speed Hacks & Pulchowk Past MCQs",
+          "marks": "16 Marks",
+          "topics": [
+            {
+              "id": "ent-u1-t1",
+              "title": "1.1 10-Second Limit & Definite Integral Shortcuts",
+              "readTime": "14 min read",
+              "badge": "IOE Staple",
+              "overview": "In IOE CBT exams, combining Maclaurin 3-term series approximations with King's definite integral symmetry evaluates integrals and limits in under 10 seconds.",
+              "definitions": "$$\\int_a^b \\frac{f(x)}{f(x) + f(a+b-x)}\\,dx = \\frac{b - a}{2}$$\n$$\\text{Area between } y^2 = 4ax \\text{ and } y = mx: \\quad A = \\frac{8a^2}{3m^3}$$",
+              "derivation": "Let $I = \\int_a^b \\frac{f(x)}{f(x)+f(a+b-x)}dx$. Applying property $x \\to a+b-x$ gives $I = \\int_a^b \\frac{f(a+b-x)}{f(a+b-x)+f(x)}dx$. Adding both equations gives $2I = \\int_a^b 1\\,dx = b - a \\implies I = \\frac{b-a}{2}$.",
+              "example": "Evaluate $\\int_{\\pi/6}^{\\pi/3} \\frac{dx}{1 + \\sqrt{\\tan x}}$ in 5 seconds. Answer: $(\\pi/3 - \\pi/6)/2 = \\pi/12$.",
+              "pitfalls": "IOE CBT penalizes $10\\%$ ($-0.25$ marks) for incorrect options. Verify whether the function is odd on $[-a, a]$ before guessing!"
+            }
+          ]
+        }
+      ],
+      "liveSchedule": [
+        {
+          "id": "cal-ent-daily",
+          "portal": "after-12",
+          "title": "IOE Pulchowk CBT Speed Calculus & Casio FX-991 Drill",
+          "type": "batch",
+          "recurrenceLabel": "Every Morning (Sun–Fri)",
+          "timings": "7:45 AM – 9:00 AM NPT",
+          "meetingId": "984 1023 8899",
+          "passcode": "BPGIOE26",
+          "zoomUrl": "https://zoom.us/j/98410238899?pwd=BPGIOE26",
+          "syllabus": "10-second MCQ elimination techniques, King’s property integrals, and Pulchowk past papers."
+        }
+      ]
+    }
+  },
+  "sectionLocks": {
+    "class-10": {
+      "locked": true,
+      "reason": "Temporarily unavailable"
+    },
+    "class-11": {
+      "locked": false,
+      "reason": ""
+    },
+    "class-12": {
+      "locked": false,
+      "reason": ""
+    },
+    "after-12": {
+      "locked": true,
+      "reason": "Temporarily unavailable"
+    }
+  },
+  "plansConfig": {
+    "free": {
+      "id": "free",
+      "name": "Free",
+      "price": "Rs. 0",
+      "period": "Forever free",
+      "description": "Access admin-selected sample questions and PDFs in open sections."
+    },
+    "gold": {
+      "id": "gold",
+      "name": "Gold",
+      "price": "Rs. 1,499",
+      "period": "Per academic year",
+      "description": "Includes all Free content plus Gold questions, full answers, and study PDFs."
+    },
+    "diamond": {
+      "id": "diamond",
+      "name": "Diamond",
+      "price": "Rs. 2,999",
+      "period": "Per academic year",
+      "description": "Unlocks every question, solution, and PDF across all open sections."
+    }
+  }
+}

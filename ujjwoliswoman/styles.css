@@ -1,0 +1,10 @@
+/* ==========================================================================
+   BPG ACADEMY — MODULAR STYLESHEET MANIFEST (styles.css)
+   Decomposed into maintainable domain stylesheets inside ./css/
+   ========================================================================== */
+@import url("./css/01-foundation-header.css?v=20261109v5");
+@import url("./css/02-workspaces-modals.css?v=20261109v5");
+@import url("./css/03-modern-extensions.css?v=20261109v5");
+@import url("./css/04-canonical-theme.css?v=20261109v5");
+@import url("./css/05-brand-guide-darkmode.css?v=20261109v5");
+@import url("./css/06-black-minimal.css?v=20261119v1");
